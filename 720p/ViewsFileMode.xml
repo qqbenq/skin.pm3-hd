@@ -1049,6 +1049,7 @@
 					<posy>1</posy>
 					<width>314</width>
 					<height>253</height>
+					<aspectratio>stretch</aspectratio>
 					<texture border="5">button-nofocus.png</texture>
 				</control>
 				<control type="image">
@@ -1086,6 +1087,7 @@
 					<posy>1</posy>
 					<width>314</width>
 					<height>253</height>
+					<aspectratio>stretch</aspectratio>
 					<texture border="5">folder-focus.png</texture>
 				</control>
 				<control type="image">
@@ -1216,6 +1218,7 @@
 					<posy>1</posy>
 					<width>473</width>
 					<height>125</height>
+					<aspectratio>stretch</aspectratio>
 					<texture border="5">button-nofocus.png</texture>
 				</control>
 				<control type="image">
@@ -1223,6 +1226,7 @@
 					<posy>6</posy>
 					<width>463</width>
 					<height>90</height>
+					<aspectratio>keep</aspectratio>
 					<texture background="true">$VAR[BannerThumb]</texture>
 				</control>
 				<control type="label">
@@ -1252,6 +1256,7 @@
 					<posy>1</posy>
 					<width>473</width>
 					<height>125</height>
+					<aspectratio>stretch</aspectratio>
 					<texture border="5">folder-focus.png</texture>
 				</control>
 				<control type="image">
@@ -1259,6 +1264,7 @@
 					<posy>6</posy>
 					<width>463</width>
 					<height>90</height>
+					<aspectratio>keep</aspectratio>
 					<texture background="true">$VAR[BannerThumb]</texture>
 				</control>
 				<control type="image">
@@ -1288,6 +1294,7 @@
 					<posy>1</posy>
 					<width>473</width>
 					<height>100</height>
+					<aspectratio>stretch</aspectratio>
 					<texture border="5">button-nofocus.png</texture>
 				</control>
 				<control type="image">
@@ -1295,6 +1302,7 @@
 					<posy>6</posy>
 					<width>463</width>
 					<height>90</height>
+					<aspectratio>keep</aspectratio>
 					<texture background="true">$VAR[BannerThumb]</texture>
 				</control>
 				<control type="image">
@@ -1312,6 +1320,7 @@
 					<posy>1</posy>
 					<width>473</width>
 					<height>100</height>
+					<aspectratio>stretch</aspectratio>
 					<texture border="5">folder-focus.png</texture>
 				</control>
 				<control type="image">
@@ -1319,6 +1328,7 @@
 					<posy>6</posy>
 					<width>463</width>
 					<height>90</height>
+					<aspectratio>keep</aspectratio>
 					<texture background="true">$VAR[BannerThumb]</texture>
 				</control>
 				<control type="image">

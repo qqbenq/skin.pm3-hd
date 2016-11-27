@@ -303,7 +303,7 @@
 	<include name="CommonNowPlaying">
 		<control type="group">
 			<posx>10</posx>
-			<posy>450</posy>
+			<posy>480</posy>
 			<visible>Player.HasAudio</visible>
 			<visible>![Window.IsVisible(Videos) + Control.IsVisible(56)]</visible>
 			<visible>![Window.IsVisible(Videos) + Control.IsVisible(500)]</visible>
@@ -389,7 +389,7 @@
 		</control>
 		<control type="group">
 			<posx>10</posx>
-			<posy>450</posy>
+			<posy>480</posy>
 			<visible>Player.HasVideo</visible>
 			<visible>![Window.IsVisible(Videos) + Control.IsVisible(56)]</visible>
 			<visible>![Window.IsVisible(Videos) + Control.IsVisible(500)]</visible>
@@ -404,14 +404,12 @@
 				<height>165</height>
 				<colordiffuse>AAFFFFFF</colordiffuse>
 				<texture>black-back.png</texture>
-				<visible>!Window.IsVisible(Videos)</visible>
 			</control>
 			<control type="videowindow">
 				<posx>5</posx>
 				<posy>15</posy>
 				<width>250</width>
 				<height>155</height>
-				<visible>!Window.IsVisible(Videos)</visible>
 			</control>
 			<control type="label">
 				<posx>5</posx>
