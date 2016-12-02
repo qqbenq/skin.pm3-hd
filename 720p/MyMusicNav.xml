@@ -25,7 +25,6 @@
 			<aspectratio scalediffuse="false">scale</aspectratio>
 			<texture background="true" diffuse="Fanart_Diffuse.png" fallback="special://skin/backgrounds/music.jpg">$INFO[ListItem.Art(fanart)]</texture>
 			<include>VisibleFadeEffect</include>
-			<fadetime>FanartCrossfadeTime</fadetime>
 			<visible>Control.IsVisible(56)</visible>
 			<include>Window_OpenClose_Animation</include>
 		</control>
@@ -109,8 +108,8 @@
 					<posx>0</posx>
 					<posy>90</posy>
 					<label>$LOCALIZE[29800]</label>
-					<onclick>ReplaceWindow(MusicFiles)</onclick>
-					<selected>Window.IsVisible(MusicLibrary)</selected>
+					<onclick>ReplaceWindow(Music)</onclick>
+					<selected>Window.IsVisible(Music)</selected>
 					<include>ButtonCommonValues</include>
 					<onleft>50</onleft>
 					<onright>50</onright>

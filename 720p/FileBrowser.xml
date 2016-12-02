@@ -326,7 +326,6 @@
 				<height>560</height>
 				<aspectratio>keep</aspectratio>
 				<info>ListItem.Icon</info>
-				<aspectratio>keep</aspectratio>
 				<visible>Control.IsVisible(451)</visible>
 				<animation effect="fade" delay="300" time="200">Visible</animation>
 			</control>

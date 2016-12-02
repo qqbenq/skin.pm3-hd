@@ -32,7 +32,6 @@
 				<aligny>center</aligny>
 				<label>$INFO[player.chapter,$LOCALIZE[21396] ]$INFO[player.chaptercount, / ]</label>
 				<visible>player.chaptercount</visible>
-				<align>center</align>
 				<font>font11</font>
 			</control>
 		</control>

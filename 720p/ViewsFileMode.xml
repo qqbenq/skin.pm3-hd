@@ -234,7 +234,7 @@
 	</include>
 	<include name="SongInfoListView">
 		<control type="list" id="59">
-			<visible>Window.IsVisible(MusicFiles) | Window.IsVisible(MusicPlaylist) | Container.Content(Songs) | Container.Content(Albums) | Container.Content(Artists)</visible>
+			<visible>Window.IsVisible(Music) | Window.IsVisible(MusicPlaylist) | Container.Content(Songs) | Container.Content(Albums) | Container.Content(Artists)</visible>
 			<posx>575</posx>
 			<posy>130</posy>
 			<width>675</width>
