@@ -1,5 +1,5 @@
 <fonts>
-	<fontset id="Default" unicode="true">
+	<fontset id="Default">
 	 	<font>
 			<name>font10</name>
 			<filename>LiberationSans-Regular.ttf</filename>
@@ -58,7 +58,7 @@
 			<aspect>.8</aspect>
 		</font>
 	</fontset>
-	<fontset id="Arial" unicode="true">
+	<fontset id="Arial">
 	 	<font>
 			<name>font10</name>
 			<filename>arial.ttf</filename>

@@ -425,6 +425,23 @@
 					<onleft>60</onleft>
 					<onright>60</onright>
 					<onup>8</onup>
+					<ondown>12</ondown>
+				</control>
+				<control type="button" id="12">
+					<description>Start installed addon</description>
+					<posx>0</posx>
+					<posy>200</posy>
+					<width>210</width>
+					<height>35</height>
+					<textoffsetx>20</textoffsetx>
+					<label>518</label>
+					<font>font12</font>
+					<align>center</align>
+					<texturenofocus border="5">button-nofocus.png</texturenofocus>
+					<texturefocus border="5">button-focus2.png</texturefocus>
+					<onleft>60</onleft>
+					<onright>60</onright>
+					<onup>10</onup>
 					<ondown>6</ondown>
 				</control>
 				<control type="image">

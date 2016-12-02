@@ -23,7 +23,7 @@
 			<height>570</height>
 			<texture border="40">DialogFront.png</texture>
 		</control>
-		<control type="label">
+		<control type="label" id="2">
 			<description>heading label</description>
 			<posx>40</posx>
 			<posy>40</posy>
@@ -108,6 +108,18 @@
 			<width>350</width>
 			<height>2</height>
 			<texture>separator.png</texture>
+		</control>
+		<control type="label" id="14">
+			<description>Default Label</description>
+			<left>0</left>
+			<top>0</top>
+			<height>30</height>
+			<label>-</label>
+			<align>center</align>
+			<aligny>bottom</aligny>
+			<font>font13_title</font>
+			<textcolor>grey</textcolor>
+			<shadowcolor>black</shadowcolor>
 		</control>
 		<control type="button" id="28">
 			<description>Ok Button</description>

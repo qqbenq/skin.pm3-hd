@@ -53,7 +53,7 @@
 					<onup>2</onup>
 					<ondown>5</ondown>
 				</control>
-				<control type="radiobutton" id="5">
+				<control type="button" id="5">
 					<description>Auto Update button</description>
 					<posx>0</posx>
 					<posy>90</posy>
@@ -84,6 +84,28 @@
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>6</onup>
+					<ondown>8</ondown>
+				</control>
+				<control type="radiobutton" id="8">
+					<description>Hide broken</description>
+					<posx>0</posx>
+					<posy>225</posy>
+					<include>ButtonCommonValues</include>
+					<label>24999</label>
+					<onleft>50</onleft>
+					<onright>50</onright>
+					<onup>7</onup>
+					<ondown>9</ondown>
+				</control>
+				<control type="button" id="9">
+					<description>Check for updates</description>
+					<posx>0</posx>
+					<posy>270</posy>
+					<include>ButtonCommonValues</include>
+					<label>24035</label>
+					<onleft>50</onleft>
+					<onright>50</onright>
+					<onup>8</onup>
 					<ondown>610</ondown>
 				</control>
 				<control type="button" id="610">
@@ -94,7 +116,7 @@
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>225</posy>
+					<posy>315</posy>
 					<include>CommonNowPlaying_Controls</include>
 				</control>
 				<control type="button" id="611">
