@@ -90,15 +90,7 @@
 		</control>
 		<control type="label" id="14">
 			<description>Default Label</description>
-			<left>0</left>
-			<top>0</top>
-			<height>30</height>
-			<label>-</label>
-			<align>center</align>
-			<aligny>bottom</aligny>
-			<font>font13_title</font>
-			<textcolor>grey</textcolor>
-			<shadowcolor>black</shadowcolor>
+			<include>DefaultSettingLabel</include>
 		</control>
 		<control type="image" id="11">
 			<description>separator image</description>
@@ -131,10 +123,10 @@
 				<align>center</align>
 				<textcolor>grey2</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<label>10037</label>	
+				<label>10037</label>
 				<onclick>SettingsLevelChange</onclick>
 				<texturefocus border="3">button-focus2.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus> 
+			<texturenofocus border="3">button-nofocus.png</texturenofocus>
 				<onleft>5</onleft>
 				<onright>5</onright>
 				<onup>3</onup>
