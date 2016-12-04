@@ -1,9 +1,9 @@
 <window>
-	<defaultcontrol>20</defaultcontrol>
+	<defaultcontrol>5</defaultcontrol>
 	<coordinates>
 		<system>1</system>
 		<posx>240</posx>
-		<posy>20</posy>
+		<posy>80</posy>
 	</coordinates>
 	<include>dialogeffect</include>
 	<controls>
@@ -12,7 +12,7 @@
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>800</width>
-			<height>660</height>
+			<height>560</height>
 			<texture border="40">DialogBack.png</texture>
 		</control>
 		<control type="image">
@@ -20,427 +20,7 @@
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>800</width>
-			<height>660</height>
-			<texture border="40">DialogFront.png</texture>
-		</control>
-		<control type="label" id="1">
-			<description>heading label</description>
-			<posx>40</posx>
-			<posy>40</posy>
-			<width>720</width>
-			<height>30</height>
-			<align>center</align>
-			<aligny>center</aligny>
-			<font>font18</font>
-			<label>20333</label>
-			<textcolor>dialogheader</textcolor>
-		</control>
-		<control type="button">
-			<description>Close Window button</description>
-			<posx>730</posx>
-			<posy>35</posy>
-			<include>WindowCloseButtonCommons</include>
-		</control>
-		<control type="image">
-			<posx>40</posx>
-			<posy>78</posy>
-			<width>720</width>
-			<height>2</height>
-			<texture>separator.png</texture>
-		</control>
-		<control type="spincontrolex" id="20">
-			<description>Content Picker</description>
-			<posx>40</posx>
-			<posy>85</posy>
-			<width>720</width>
-			<height>35</height>
-			<texturefocus border="5">button-focus.png</texturefocus>
-			<texturenofocus border="5">button-nofocus.png</texturenofocus>
-			<font>font12</font>
-			<label>20344</label>
-			<aligny>center</aligny>
-			<reverse>yes</reverse>
-			<onup>28</onup>
-			<ondown>21</ondown>
-			<onleft>20</onleft>
-			<onright>20</onright>
-		</control>
-		<control type="image">
-			<description>scraper image</description>
-			<posx>450</posx>
-			<posy>125</posy>
-			<width>310</width>
-			<height>200</height>
-			<aspectratio>keep</aspectratio>
-			<info>ListItem.Icon</info>
-			<visible>Control.IsVisible(21)</visible>
-		</control>
-		<control type="list" id="21">
-			<posx>40</posx>
-			<posy>125</posy>
-			<width>400</width>
-			<height>200</height>
-			<onup>20</onup>
-			<onleft>5</onleft>
-			<onright>5</onright>
-			<ondown>5</ondown>
-			<pagecontrol>-</pagecontrol>
-			<scrolltime>200</scrolltime>
-			<itemlayout height="40">
-				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>400</width>
-					<height>35</height>
-					<texture border="5">button-nofocus.png</texture>
-				</control>
-				<control type="image">
-					<posx>5</posx>
-					<posy>4</posy>
-					<width>35</width>
-					<height>27</height>
-					<texture>$INFO[Listitem.Icon]</texture>
-				</control>
-				<control type="label">
-					<posx>50</posx>
-					<posy>0</posy>
-					<width>340</width>
-					<height>35</height>
-					<font>font12</font>
-					<align>left</align>
-					<aligny>center</aligny>
-					<textcolor>grey2</textcolor>
-					<selectedcolor>green</selectedcolor>
-					<info>ListItem.Label</info>
-				</control>
-			</itemlayout>
-			<focusedlayout height="40">
-				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>400</width>
-					<height>35</height>
-					<visible>!Control.HasFocus(4)</visible>
-					<texture border="5">button-nofocus.png</texture>
-				</control>
-				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
-					<width>400</width>
-					<height>35</height>
-					<visible>Control.HasFocus(4)</visible>
-					<texture border="5">button-focus.png</texture>
-				</control>
-				<control type="image">
-					<posx>5</posx>
-					<posy>4</posy>
-					<width>35</width>
-					<height>27</height>
-					<texture>$INFO[Listitem.Icon]</texture>
-				</control>
-				<control type="label">
-					<posx>50</posx>
-					<posy>0</posy>
-					<width>340</width>
-					<height>35</height>
-					<font>font12</font>
-					<align>left</align>
-					<aligny>center</aligny>
-					<textcolor>white</textcolor>
-					<selectedcolor>green</selectedcolor>
-					<info>ListItem.Label</info>
-				</control>
-			</focusedlayout>
-		</control>
-		<control type="image">
-			<posx>40</posx>
-			<posy>333</posy>
-			<width>720</width>
-			<height>2</height>
-			<texture>separator.png</texture>
-		</control>
-		<control type="grouplist" id="5">
-			<description>control area</description>
-			<posx>40</posx>
-			<posy>345</posy>
-			<width>720</width>
-			<height>200</height>
-			<itemgap>5</itemgap>
-			<onup>21</onup>
-			<ondown>28</ondown>
-			<onleft>5</onleft>
-			<onright>5</onright>
-		</control>
-		<control type="button" id="7">
-			<description>Default Button</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<height>35</height>
-			<font>font12</font>
-			<texturefocus border="5">button-focus.png</texturefocus>
-			<texturenofocus border="5">button-nofocus.png</texturenofocus>
-		</control>
-		<control type="radiobutton" id="8">
-			<description>Default RadioButton</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<height>35</height>
-			<font>font12</font>
-			<texturefocus border="5">button-focus.png</texturefocus>
-			<texturenofocus border="5">button-nofocus.png</texturenofocus>
-		</control>
-		<control type="group" id="9001">
-			<control type="button" id="28">
-				<description>OK Button</description>
-				<posx>300</posx>
-				<posy>575</posy>
-				<width>200</width>
-				<height>35</height>
-				<align>center</align>
-				<aligny>center</aligny>
-				<texturenofocus border="3">button-nofocus.png</texturenofocus>
-				<texturefocus border="3">button-focus2.png</texturefocus>
-				<label>186</label>
-				<onleft>22</onleft>
-				<onright>29</onright>
-				<onup>5</onup>
-				<ondown>20</ondown>
-			</control>
-			<control type="button" id="29">
-				<description>Cancel Button</description>
-				<posx>510</posx>
-				<posy>575</posy>
-				<width>200</width>
-				<height>35</height>
-				<align>center</align>
-				<aligny>center</aligny>
-				<texturenofocus border="3">button-nofocus.png</texturenofocus>
-				<texturefocus border="3">button-focus2.png</texturefocus>
-				<label>222</label>
-				<onleft>28</onleft>
-				<onright>22</onright>
-				<onup>5</onup>
-				<ondown>20</ondown>
-			</control>
-			<control type="button" id="22">
-				<description>Settings Button</description>
-				<posx>90</posx>
-				<posy>575</posy>
-				<width>200</width>
-				<height>35</height>
-				<align>center</align>
-				<aligny>center</aligny>
-				<texturenofocus border="3">button-nofocus.png</texturenofocus>
-				<texturefocus border="3">button-focus2.png</texturefocus>
-				<label>5</label>
-				<onleft>29</onleft>
-				<onright>28</onright>
-				<onup>5</onup>
-				<ondown>20</ondown>
-			</control>
-		</control>
-		<control type="image">
-			<description>background image</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>700</width>
-			<height>660</height>
-			<texture border="40">DialogBack.png</texture>
-		</control>
-		<control type="image">
-			<description>background image</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>700</width>
-			<height>660</height>
-			<texture border="40">DialogFront.png</texture>
-		</control>
-		<control type="label" id="1">
-			<description>heading label</description>
-			<posx>40</posx>
-			<posy>40</posy>
-			<width>620</width>
-			<height>30</height>
-			<align>center</align>
-			<aligny>center</aligny>
-			<font>font18</font>
-			<label>$LOCALIZE[5]</label>
-			<textcolor>dialogheader</textcolor>
-		</control>
-		<control type="button">
-			<description>Close Window button</description>
-			<posx>630</posx>
-			<posy>35</posy>
-			<include>WindowCloseButtonCommons</include>
-		</control>
-		<control type="image">
-			<posx>40</posx>
-			<posy>78</posy>
-			<width>620</width>
-			<height>2</height>
-			<texture>separator.png</texture>
-		</control>
-
-		<control type="label" id="3">
-			<description>No Settings Label</description>
-			<posx>40</posx>
-			<posy>180</posy>
-			<width>620</width>
-			<align>center</align>
-			<label>35004</label>
-			<font>font13caps</font>
-		</control>
-		<control type="grouplist" id="5">
-			<animation effect="slide" start="0,0" end="10,0" time="0" condition="!Control.IsVisible(60)">Conditional</animation>
-			<description>control area</description>
-			<posx>40</posx>
-			<posy>90</posy>
-			<width>600</width>
-			<height>470</height>
-			<itemgap>5</itemgap>
-			<pagecontrol>60</pagecontrol>
-			<onleft>28</onleft>
-			<onright>60</onright>
-			<onup>28</onup>
-			<ondown>28</ondown>
-		</control>
-		<control type="scrollbar" id="60">
-			<posx>641</posx>
-			<posy>90</posy>
-			<width>20</width>
-			<height>470</height>
-			<texturesliderbackground border="2,2,2,2">scrollbar_bar_back2.png</texturesliderbackground>
-			<texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
-			<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
-			<textureslidernib>scrollbar_nib.png</textureslidernib>
-			<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
-			<onleft>3</onleft>
-			<onright>3</onright>
-			<ondown>60</ondown>
-			<onup>60</onup>
-			<showonepage>false</showonepage>
-			<orientation>vertical</orientation>
-		</control>
-		<control type="button" id="7">
-			<description>Default Button</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<height>40</height>
-			<font>font12</font>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<texturenofocus border="5">button-nofocus.png</texturenofocus>
-			<texturefocus border="5">button-focus.png</texturefocus>
-		</control>
-		<control type="radiobutton" id="8">
-			<description>Default RadioButton</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<height>40</height>
-			<font>font12</font>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<texturenofocus border="5">button-nofocus.png</texturenofocus>
-			<texturefocus border="5">button-focus.png</texturefocus>
-		</control>
-		<control type="spincontrolex" id="9">
-			<description>Default SpinControlex</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<height>40</height>
-			<font>font12</font>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<texturenofocus border="5">button-nofocus.png</texturenofocus>
-			<texturefocus border="5">button-focus.png</texturefocus>
-			<aligny>center</aligny>
-			<reverse>yes</reverse>
-		</control>
-		<control type="sliderex" id="10">
-			<description>Default Slider</description>
-			<height>40</height>
-			<texturenofocus border="5">button-nofocus.png</texturenofocus>
-			<texturefocus border="5">button-focus.png</texturefocus>
-			<font>font12</font>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
-		</control>
-		<control type="image" id="11">
-			<description>separator image</description>
-			<height>2</height>
-			<texture>separator2.png</texture>
-		</control>
-
-		<control type="group" id="9000">
-			<posx>38</posx>
-			<posy>570</posy>
-			<control type="button" id="29">
-				<description>Cancel Button</description>
-				<posy>0</posy>
-				<posx>0</posx>
-				<width>200</width>
-				<height>40</height>
-				<align>center</align>
-				<aligny>center</aligny>
-				<font>font12</font>
-				<label>222</label>
-				<texturenofocus border="5">button-nofocus.png</texturenofocus>
-				<texturefocus border="5">button-focus2.png</texturefocus>
-				<onleft>50</onleft>
-				<onright>28</onright>
-				<onup>5</onup>
-				<ondown>5</ondown>
-			</control>
-			<control type="button" id="28">
-				<description>OK Button</description>
-				<posy>0</posy>
-				<posx>210</posx>
-				<width>200</width>
-				<height>40</height>
-				<align>center</align>
-				<aligny>center</aligny>
-				<font>font12</font>
-				<label>186</label>
-				<texturenofocus border="5">button-nofocus.png</texturenofocus>
-				<texturefocus border="5">button-focus2.png</texturefocus>
-				<onleft>29</onleft>
-				<onright>50</onright>
-				<onup>5</onup>
-				<ondown>5</ondown>
-			</control>
-			<control type="button" id="50">
-				<description>Defaults Button</description>
-				<posy>0</posy>
-				<posx>420</posx>
-				<width>200</width>
-				<height>40</height>
-				<align>center</align>
-				<aligny>center</aligny>
-				<font>font12</font>
-				<label>409</label>
-				<texturenofocus border="5">button-nofocus.png</texturenofocus>
-				<texturefocus border="5">button-focus2.png</texturefocus>
-				<onleft>28</onleft>
-				<onright>29</onright>
-				<onup>5</onup>
-				<ondown>5</ondown>
-			</control>
-		</control>
-		<control type="image">
-			<description>background image</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>800</width>
-			<height>635</height>
-			<colordiffuse>DDFFFFFF</colordiffuse>
-			<texture border="40">DialogBack.png</texture>
-		</control>
-		<control type="image">
-			<description>background image</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>800</width>
-			<height>635</height>
+			<height>560</height>
 			<texture border="40">DialogFront.png</texture>
 		</control>
 		<control type="label" id="2">
@@ -452,8 +32,8 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>font18</font>
-			<label>20333</label>
-			<textcolor>white</textcolor>
+			<label>-</label>
+			<textcolor>dialogheader</textcolor>
 		</control>
 		<control type="button">
 			<description>Close Window button</description>
@@ -468,20 +48,41 @@
 			<height>2</height>
 			<texture>separator.png</texture>
 		</control>
+
 		<control type="grouplist" id="5">
+			<animation effect="slide" start="0,0" end="10,0" time="0" condition="!Control.IsVisible(60)">Conditional</animation>
 			<description>control area</description>
-			<posx>45</posx>
+			<posx>40</posx>
 			<posy>85</posy>
-			<width>710</width>
-			<height>480</height>
+			<width>693</width>
+			<height>315</height>
 			<itemgap>5</itemgap>
 			<pagecontrol>60</pagecontrol>
-			<onleft>5</onleft>
-			<onright>5</onright>
-			<onup>28</onup>
-			<ondown>28</ondown>
+			<onup>5</onup>
+			<ondown>5</ondown>
+			<onleft>9000</onleft>
+			<onright>60</onright>
 		</control>
-		<control type="sliderex" id="10">
+		<control type="scrollbar" id="60">
+		    <posx>734</posx>
+		    <posy>85</posy>
+		    <width>20</width>
+		    <height>315</height>
+		    <texturesliderbackground border="2,2,2,2">scrollbar_bar_back2.png</texturesliderbackground>
+		    <texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
+		    <texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
+		    <textureslidernib>scrollbar_nib.png</textureslidernib>
+		    <textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
+		    <onleft>5</onleft>
+		    <onright>5</onright>
+		    <ondown>60</ondown>
+		    <onup>60</onup>
+		    <showonepage>false</showonepage>
+		    <orientation>vertical</orientation>
+		</control>
+
+
+		<control type="sliderex" id="13">
 			<description>Default Slider</description>
 			<height>35</height>
 			<texturefocus border="3">button-focus.png</texturefocus>
@@ -517,6 +118,11 @@
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<reverse>yes</reverse>
+		</control>
+		<control type="image" id="11">
+			<description>Default Seperator</description>
+			<height>2</height>
+			<texture>separator.png</texture>
 		</control>
 		<control type="edit" id="12">
 			<description>Default Edit</description>
@@ -527,452 +133,30 @@
 			<texturefocus border="3">button-focus.png</texturefocus>
 			<texturenofocus border="3">button-nofocus.png</texturenofocus>
 		</control>
-		<control type="image" id="11">
-			<description>Default Seperator</description>
-			<height>2</height>
-			<texture>separator.png</texture>
-		</control>
-		<control type="button" id ="28">
-			<description>Ok button</description>
-			<posx>345</posx>
-			<posy>553</posy>
-			<width>200</width>
-			<height>35</height>
-			<label>186</label>
-			<font>font13</font>
-			<align>center</align>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-			<texturefocus border="3">button-focus2.png</texturefocus>
-			<onleft>29</onleft>
-			<onright>29</onright>
-			<onup>5</onup>
-			<ondown>5</ondown>
-		</control>
-		<control type="button" id="29">
-			<description>Cancel button</description>
-			<posx>550</posx>
-			<posy>553</posy>
-			<width>200</width>
-			<height>35</height>
-			<label>222</label>
-			<font>font13</font>
-			<align>center</align>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-			<texturefocus border="3">button-focus2.png</texturefocus>
-			<onleft>28</onleft>
-			<onright>28</onright>
-			<onup>5</onup>
-			<ondown>5</ondown>
-		</control>
-		<control type="image">
-			<description>background image</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>700</width>
-			<height>570</height>
-			<texture border="40">DialogBack.png</texture>
-		</control>
-		<control type="image">
-			<description>background image</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>700</width>
-			<height>570</height>
-			<texture border="40">DialogFront.png</texture>
-		</control>
-		<control type="label">
-			<description>heading label</description>
+
+		<control type="grouplist" id="9000">
 			<posx>40</posx>
-			<posy>40</posy>
-			<width>620</width>
-			<height>30</height>
-			<align>center</align>
-			<aligny>center</aligny>
-			<font>font18</font>
-			<label>$LOCALIZE[20043]</label>
-			<textcolor>dialogheader</textcolor>
+			<posy>460</posy>
+			<orientation>horizontal</orientation>
+			<width>720</width>
+			<height>100</height>
+			<itemgap>10</itemgap>
+			<onleft>5</onleft>
+			<align>center</align>>
+			<onright>5</onright>
+			<include content="DefaultDialogButton">
+				<param name="id" value="28" />
+				<param name="label" value="" />
+			</include>
+			<include content="DefaultDialogButton">
+				<param name="id" value="29" />
+				<param name="label" value="" />
+			</include>
+			<include content="DefaultDialogButton">
+				<param name="id" value="30" />
+				<param name="label" value="" />
+			</include>
 		</control>
-		<control type="button">
-			<description>Close Window button</description>
-			<posx>630</posx>
-			<posy>35</posy>
-			<include>WindowCloseButtonCommons</include>
-		</control>
-		<control type="image">
-			<posx>40</posx>
-			<posy>78</posy>
-			<width>620</width>
-			<height>2</height>
-			<texture>separator.png</texture>
-		</control>
-		<control type="grouplist" id="5">
-			<description>control area</description>
-			<posx>40</posx>
-			<posy>85</posy>
-			<width>620</width>
-			<height>340</height>
-			<itemgap>5</itemgap>
-			<pagecontrol>-</pagecontrol>
-			<onleft>28</onleft>
-			<onright>28</onright>
-			<onup>28</onup>
-			<ondown>28</ondown>
-		</control>
-		<control type="button" id="7">
-			<description>Default Button</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<height>35</height>
-			<font>font12</font>
-			<textcolor>white</textcolor>
-			<textoffsetx>7</textoffsetx>
-			<texturefocus border="5">button-focus.png</texturefocus>
-			<texturenofocus border="5">button-nofocus.png</texturenofocus>
-		</control>
-		<control type="radiobutton" id="8">
-			<description>Default RadioButton</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<height>35</height>
-			<font>font12</font>
-			<textcolor>white</textcolor>
-			<texturefocus border="5">button-focus.png</texturefocus>
-			<texturenofocus border="5">button-nofocus.png</texturenofocus>
-			<textoffsetx>7</textoffsetx>
-			<textureradioon>radiobutton-focus.png</textureradioon>
-			<textureradiooff>radiobutton-nofocus.png</textureradiooff>
-		</control>
-		<control type="spincontrolex" id="9">
-			<description>Default SpinControlex</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<height>35</height>
-			<texturefocus border="5">button-focus.png</texturefocus>
-			<texturenofocus border="5">button-nofocus.png</texturenofocus>
-			<textureup>scroll-up.png</textureup>
-			<texturedown>scroll-down.png</texturedown>
-			<textureupfocus>scroll-up-focus.png</textureupfocus>
-			<texturedownfocus>scroll-down-focus.png</texturedownfocus>
-			<font>font12</font>
-			<textcolor>white</textcolor>
-			<disabledcolor>disabled</disabledcolor>
-			<textoffsetx>7</textoffsetx>
-			<aligny>center</aligny>
-			<reverse>yes</reverse>
-		</control>
-		<control type="image" id="11">
-			<description>separator image</description>
-			<width>350</width>
-			<height>2</height>
-			<texture>separator.png</texture>
-		</control>
-		<control type="button" id="28">
-			<description>Ok Button</description>
-			<posx>147</posx>
-			<posy>485</posy>
-			<width>200</width>
-			<height>35</height>
-			<align>center</align>
-			<aligny>center</aligny>
-			<texturefocus border="3">button-focus2.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-			<label>186</label>
-			<onleft>29</onleft>
-			<onright>29</onright>
-			<onup>5</onup>
-			<ondown>5</ondown>
-		</control>
-		<control type="button" id="29">
-			<description>Cancel Button</description>
-			<posx>352</posx>
-			<posy>485</posy>
-			<width>200</width>
-			<height>35</height>
-			<align>center</align>
-			<aligny>center</aligny>
-			<texturefocus border="3">button-focus2.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-			<label>222</label>
-			<onleft>28</onleft>
-			<onright>28</onright>
-			<onup>5</onup>
-			<ondown>5</ondown>
-		</control>
-		<control type="image">
-			<description>background image</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>700</width>
-			<height>570</height>
-			<texture border="40">DialogBack.png</texture>
-		</control>
-		<control type="image">
-			<description>background image</description>
-			<posx>0</posx>
-			<posy>0</posy>
-			<width>700</width>
-			<height>570</height>
-			<texture border="40">DialogFront.png</texture>
-		</control>
-		<control type="label">
-			<description>heading label</description>
-			<posx>40</posx>
-			<posy>40</posy>
-			<width>620</width>
-			<height>30</height>
-			<align>center</align>
-			<aligny>center</aligny>
-			<font>font18</font>
-			<label>$INFO[Window.Property(heading)]</label>
-			<textcolor>dialogheader</textcolor>
-		</control>
-		<control type="button">
-			<description>Close Window button</description>
-			<posx>630</posx>
-			<posy>35</posy>
-			<include>WindowCloseButtonCommons</include>
-		</control>
-		<control type="image">
-			<posx>40</posx>
-			<posy>78</posy>
-			<width>620</width>
-			<height>2</height>
-			<texture>separator.png</texture>
-		</control>
-		<control type="image" id="2">
-			<description>profile image</description>
-			<posx>40</posx>
-			<posy>90</posy>
-			<width>150</width>
-			<height>150</height>
-			<align>left</align>
-			<aspectratio>stretch</aspectratio>
-			<texture>unknown-user.png</texture>
-		</control>
-		<control type="label">
-			<description>profile name label</description>
-			<posx>200</posx>
-			<posy>90</posy>
-			<width>460</width>
-			<align>left</align>
-			<font>font13</font>
-			<textcolor>green</textcolor>
-			<label>$LOCALIZE[20093]</label>
-		</control>
-		<control type="label" id="1000">
-			<description>profile name Value</description>
-			<posx>200</posx>
-			<posy>115</posy>
-			<width>460</width>
-			<align>left</align>
-			<font>font18</font>
-			<textcolor>white</textcolor>
-		</control>
-		<control type="label">
-			<description>profile directory label</description>
-			<posx>200</posx>
-			<posy>165</posy>
-			<width>460</width>
-			<align>left</align>
-			<font>font13</font>
-			<textcolor>green</textcolor>
-			<label>$LOCALIZE[20070]</label>
-		</control>
-		<control type="label" id="1001">
-			<description>profile directory Value</description>
-			<posx>200</posx>
-			<posy>190</posy>
-			<width>460</width>
-			<align>left</align>
-			<font>font18</font>
-			<textcolor>white</textcolor>
-		</control>
-		<control type="grouplist" id="5">
-			<description>control area</description>
-			<posx>40</posx>
-			<posy>250</posy>
-			<width>620</width>
-			<height>222</height>
-			<itemgap>2</itemgap>
-			<pagecontrol>60</pagecontrol>
-			<onleft>28</onleft>
-			<onright>60</onright>
-			<onup>28</onup>
-			<ondown>28</ondown>
-		</control>
-		<control type="button" id="7">
-			<description>Default Button</description>
-			<height>35</height>
-			<font>font12</font>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<texturefocus border="3">button-focus.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-		</control>
-		<control type="radiobutton" id="8">
-			<description>Default RadioButton</description>
-			<height>35</height>
-			<font>font12</font>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<texturefocus border="3">button-focus.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-		</control>
-		<control type="spincontrolex" id="9">
-			<description>Default spincontrolex</description>
-			<height>35</height>
-			<texturefocus border="3">button-focus.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-			<font>font12</font>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<reverse>yes</reverse>
-		</control>
-		<control type="sliderex" id="10">
-			<description>Default Slider</description>
-			<height>35</height>
-			<texturefocus border="3">button-focus.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-			<font>font12</font>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
-		</control>
-		<control type="image" id="11">
-			<description>Default Seperator</description>
-			<height>8</height>
-			<texture>separator.png</texture>
-		</control>
-		<control type="button" id="28">
-			<description>Ok Button</description>
-			<posx>147</posx>
-			<posy>485</posy>
-			<width>200</width>
-			<height>35</height>
-			<align>center</align>
-			<aligny>center</aligny>
-			<texturefocus border="3">button-focus2.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-			<label>186</label>
-			<onleft>29</onleft>
-			<onright>29</onright>
-			<onup>5</onup>
-			<ondown>5</ondown>
-		</control>
-		<control type="button" id="29">
-			<description>Cancel Button</description>
-			<posx>352</posx>
-			<posy>485</posy>
-			<width>200</width>
-			<height>35</height>
-			<align>center</align>
-			<aligny>center</aligny>
-			<texturefocus border="3">button-focus2.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-			<label>222</label>
-			<onleft>28</onleft>
-			<onright>28</onright>
-			<onup>5</onup>
-			<ondown>5</ondown>
-		</control>
-		<control type="group">
-			<animation effect="fade" start="100" end="0" time="200" condition="Window.IsVisible(SliderDialog)">conditional</animation>
-			<control type="image">
-				<description>background image</description>
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>800</width>
-				<height>610</height>
-				<colordiffuse>DDFFFFFF</colordiffuse>
-				<texture border="40">DialogBack.png</texture>
-			</control>
-			<control type="image">
-				<description>background image</description>
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>800</width>
-				<height>610</height>
-				<texture border="40">DialogFront.png</texture>
-			</control>
-			<control type="label" id="2">
-				<description>heading label</description>
-				<posx>40</posx>
-				<posy>40</posy>
-				<width>720</width>
-				<height>30</height>
-				<align>center</align>
-				<aligny>center</aligny>
-				<font>font18</font>
-				<label>20333</label>
-				<textcolor>white</textcolor>
-			</control>
-			<control type="button">
-				<description>Close Window button</description>
-				<posx>730</posx>
-				<posy>35</posy>
-				<include>WindowCloseButtonCommons</include>
-			</control>
-			<control type="image">
-				<posx>40</posx>
-				<posy>78</posy>
-				<width>720</width>
-				<height>2</height>
-				<texture>separator.png</texture>
-			</control>
-			<control type="grouplist" id="5">
-				<description>control area</description>
-				<posx>45</posx>
-				<posy>85</posy>
-				<width>710</width>
-				<height>480</height>
-				<itemgap>5</itemgap>
-				<pagecontrol>60</pagecontrol>
-				<onleft>5</onleft>
-				<onright>5</onright>
-				<onup>5</onup>
-				<ondown>5</ondown>
-			</control>
-		</control>
-		<control type="sliderex" id="10">
-			<description>Default Slider</description>
-			<height>35</height>
-			<texturefocus border="3">button-focus.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-			<font>font12</font>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
-		</control>
-		<control type="button" id="7">
-			<description>Default Button</description>
-			<height>35</height>
-			<font>font12</font>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<texturefocus border="3">button-focus.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-		</control>
-		<control type="radiobutton" id="8">
-			<description>Default RadioButton</description>
-			<height>35</height>
-			<font>font12</font>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<texturefocus border="3">button-focus.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-		</control>
-		<control type="spincontrolex" id="9">
-			<description>Default spincontrolex</description>
-			<height>35</height>
-			<texturefocus border="3">button-focus.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-			<font>font12</font>
-			<textcolor>grey2</textcolor>
-			<focusedcolor>white</focusedcolor>
-			<reverse>yes</reverse>
-		</control>
-		<control type="image" id="11">
-			<description>Default Seperator</description>
-			<height>2</height>
-			<texture>separator.png</texture>
-		</control>
+
 	</controls>
 </window>

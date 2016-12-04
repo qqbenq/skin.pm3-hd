@@ -608,6 +608,31 @@
 		<texturenofocus border="32,0,0,0">Button_Side_NoFocus.png</texturenofocus>
 		<pulseonselect>true</pulseonselect>
 	</include>
+	<include name="DefaultDialogButton">
+			<param name="width">200</param>
+			<param name="height">35</param>
+			<param name="wrapmultiline">false</param>
+			<param name="font">font12</param>
+			<param name="onclick"></param>
+			<param name="visible">true</param>
+			<definition>
+				<control type="button" id="$PARAM[id]">
+					<width>$PARAM[width]</width>
+					<height>$PARAM[height]</height>
+					<label>$PARAM[label]</label>
+					<font>$PARAM[font]</font>
+					<textoffsetx>20</textoffsetx>
+					<onclick>$PARAM[onclick]</onclick>
+					<wrapmultiline>$PARAM[wrapmultiline]</wrapmultiline>
+					<textcolor>grey2</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<texturenofocus border="3">button-nofocus.png</texturenofocus>
+					<texturefocus border="3">button-focus2.png</texturefocus>
+					<visible>$PARAM[visible]</visible>
+				</control>
+			</definition>
+	</include>
 	<include name="ButtonInfoDialogsCommonValues">
 		<height>30</height>
 		<width>200</width>
