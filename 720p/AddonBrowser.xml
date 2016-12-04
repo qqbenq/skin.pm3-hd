@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<defaultcontrol always="true">50</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
@@ -54,44 +55,33 @@
 					<ondown>5</ondown>
 				</control>
 				<control type="button" id="5">
-					<description>Auto Update button</description>
+					<description>Addon settings</description>
 					<posx>0</posx>
 					<posy>90</posy>
 					<include>ButtonCommonValues</include>
-					<label>24063</label>
+					<label>$LOCALIZE[10004]</label>
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>3</onup>
-					<ondown>6</ondown>
-				</control>
-				<control type="radiobutton" id="6">
-					<description>Auto Update button</description>
-					<posx>0</posx>
-					<posy>135</posy>
-					<include>ButtonCommonValues</include>
-					<label>25000</label>
-					<onleft>50</onleft>
-					<onright>50</onright>
-					<onup>5</onup>
 					<ondown>7</ondown>
 				</control>
 				<control type="radiobutton" id="7">
 					<description>Hide foreign</description>
 					<posx>0</posx>
-					<posy>180</posy>
+					<posy>135</posy>
 					<include>ButtonCommonValues</include>
-					<label>25001</label>
+					<label>$LOCALIZE[25001]</label>
 					<onleft>50</onleft>
 					<onright>50</onright>
-					<onup>6</onup>
+					<onup>5</onup>
 					<ondown>8</ondown>
 				</control>
 				<control type="radiobutton" id="8">
 					<description>Hide broken</description>
 					<posx>0</posx>
-					<posy>225</posy>
+					<posy>180</posy>
 					<include>ButtonCommonValues</include>
-					<label>24999</label>
+					<label>$LOCALIZE[24999]</label>
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>7</onup>
@@ -100,23 +90,23 @@
 				<control type="button" id="9">
 					<description>Check for updates</description>
 					<posx>0</posx>
-					<posy>270</posy>
+					<posy>225</posy>
 					<include>ButtonCommonValues</include>
-					<label>24035</label>
+					<label>$LOCALIZE[24034]</label>
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>8</onup>
 					<ondown>610</ondown>
 				</control>
 				<control type="button" id="610">
-					<description>Fake Button to fix Player Controls Navigation</description>
+					<description>Fake Button to fix layer Controls Navigation</description>
 					<onup>7</onup>
 					<ondown>603</ondown>
 					<visible>false</visible>
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>315</posy>
+					<posy>270</posy>
 					<include>CommonNowPlaying_Controls</include>
 				</control>
 				<control type="button" id="611">
