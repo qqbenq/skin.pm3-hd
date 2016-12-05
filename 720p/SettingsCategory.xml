@@ -32,9 +32,30 @@
 				<itemgap>2</itemgap>
 				<onleft>5</onleft>
 				<onright>5</onright>
-				<onup>20</onup>
-				<ondown>20</ondown>
+				<onup>611</onup>
+				<ondown>610</ondown>
 			</control>
+			<control type="button" id="610">
+					<description>Fake Button to fix Player Controls Navigation</description>
+					<onup>3</onup>
+					<ondown>603</ondown>
+					<onleft>20</onleft>
+					<onright>20</onright>
+					<visible>false</visible>
+				</control>
+				<control type="group">
+					<posx>0</posx>
+					<posy>680</posy>
+					<include>CommonNowPlaying_Controls</include>
+				</control>
+				<control type="button" id="611">
+					<description>Fake Button to fix Player Controls Navigation</description>
+					<onup>603</onup>
+					<onleft>20</onleft>
+					<onright>20</onright>
+					<ondown>3</ondown>
+					<visible>false</visible>
+				</control>
 		</control>
 		<control type="button" id="10">
 			<description>Default Category Button</description>
@@ -115,8 +136,8 @@
 		</control>
 		<control type="button" id="20">
 				<description>Setting level button</description>
-				<left>0</left>
-				<top>629</top>
+				<left>1000</left>
+				<top>685</top>
 				<height>35</height>
 				<width>280</width>
 				<font>font11</font>
@@ -127,10 +148,10 @@
 				<onclick>SettingsLevelChange</onclick>
 				<texturefocus border="3">button-focus2.png</texturefocus>
 			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-				<onleft>5</onleft>
-				<onright>5</onright>
-				<onup>3</onup>
-				<ondown>3</ondown>
+				<onleft>603</onleft>
+				<onright>603</onright>
+				<onup>5</onup>
+				<ondown>5</ondown>
 			</control>
 		<control type="label">
 			<include>WindowTitleCommons</include>

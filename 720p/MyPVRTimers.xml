@@ -15,7 +15,7 @@
 			<animation effect="fade" time="250" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
 		<control type="group">
-			<include>Window_OpenClose_Animation</include>		
+			<include>Window_OpenClose_Animation</include>
 			<control type="image">
 				<left>0</left>
 				<top>100r</top>
@@ -26,7 +26,7 @@
 				<animation effect="fade" time="250" condition="Window.Next(Home)">WindowClose</animation>
 			</control>
 			<control type="group">
-				<include>Window_OpenClose_Animation</include>		
+				<include>Window_OpenClose_Animation</include>
 				<control type="group">
 					<include>VisibleFadeEffect</include>
 					<control type="image">
@@ -48,8 +48,8 @@
 		</control>
 		<include>MainWindowMouseButtons</include>
 		<include>PVRHeader</include>
-	
-			
+
+
 		<control type="group">
 			<include>Window_OpenClose_Animation</include>
 			<description>Timers group</description>
@@ -334,13 +334,19 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<label>([COLOR=blue]$INFO[Container(50).NumItems][/COLOR]) $LOCALIZE[19040] - $LOCALIZE[31024] ([COLOR=blue]$INFO[Container(50).CurrentPage]/$INFO[Container(50).NumPages][/COLOR])</label>
-				<include>Window_OpenClose_Animation</include>		
+				<include>Window_OpenClose_Animation</include>
 			</control>
 		</control>
 
 		<include>CommonNowPlaying</include>
 		<include>BehindDialogFadeOut</include>
 		<include>ScrollOffsetLabel</include>
+		<control type="group">
+			<posx>0</posx>
+			<posy>680</posy>
+			<animation effect="slide" start="0,0" end="0,-45" time="0" condition="!Control.IsVisible(99)">conditional</animation>
+			<include>CommonNowPlaying_Controls</include>
+		</control>
 
 		<control type="image">
 			<left>0</left>

@@ -250,20 +250,6 @@
 					<texturenofocus>-</texturenofocus>
 					<textureradioon>radiobutton-focus-2.png</textureradioon>
 				</control>
-				<control type="radiobutton" id="206">
-					<description>enable tv info</description>
-					<width>950</width>
-					<height>35</height>
-					<font>font12</font>
-					<label>31117</label>
-					<onclick>Skin.ToggleSetting(homepagePVRinfo)</onclick>
-					<selected>!Skin.HasSetting(homepagePVRinfo)</selected>
-					<textcolor>grey2</textcolor>
-					<focusedcolor>white</focusedcolor>
-					<texturefocus border="7">list-focus.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
-					<textureradioon>radiobutton-focus-2.png</textureradioon>
-				</control>
 				<control type="radiobutton" id="208">
 					<description>enable music info</description>
 					<width>950</width>
@@ -875,7 +861,7 @@
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>180</posy>
+					<posy>550</posy>
 					<include>CommonNowPlaying_Controls</include>
 				</control>
 				<control type="button" id="611">

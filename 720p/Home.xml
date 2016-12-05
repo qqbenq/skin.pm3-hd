@@ -1,6 +1,6 @@
 <window>
 	<defaultcontrol always="true">9000</defaultcontrol>
-	<allowoverlay>no</allowoverlay>	
+	<allowoverlay>no</allowoverlay>
 	<controls>
 		<control type="videowindow">
 			<posx>356</posx>
@@ -576,7 +576,7 @@
 						<onclick>ActivateWindow(TVChannels)</onclick>
 						<icon>special://skin/backgrounds/tv.jpg</icon>
 						<thumb>$INFO[Skin.String(Home_Custom_Back_TV_Folder)]</thumb>
-						<visible>System.GetBool(pvrmanager.enabled)</visible>
+						<visible>PVR.HasTVChannels | PVR.HasRadioChannels</visible>
 					</item>
 					<item id="1">
 						<label>3</label>
@@ -788,5 +788,5 @@
 			<include>Window_OpenClose_Animation</include>
 		</control>
 		<include>BehindDialogFadeOut</include>
-	</controls>	
+	</controls>
 </window>

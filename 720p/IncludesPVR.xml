@@ -72,7 +72,7 @@
 		</control>
 	</include>
 	<include name="PVRSideBlade">
-	
+
 		<control type="group">
 			<left>-250</left>
 			<include>SideBladeLeft</include>
@@ -292,7 +292,7 @@
 					<onup>608</onup>
 					<ondown>612</ondown>
 					<onclick>ActivateWindow(TVRecordings)</onclick>
-				</control> 
+				</control>
 				<control type="button" id="612">
 					<description>Timer</description>
 					<posx>0</posx>
@@ -304,7 +304,7 @@
 					<onup>609</onup>
 					<ondown>613</ondown>
 					<onclick>ActivateWindow(TVTimers)</onclick>
-				</control> 
+				</control>
 				<control type="button" id="613">
 					<description>Search</description>
 					<posx>0</posx>
@@ -328,7 +328,7 @@
 					<onup>613</onup>
 					<ondown>610</ondown>
 				</control>
-				
+
 				<control type="button" id="610">
 					<description>Fake Button to fix Player Controls Navigation</description>
 					<onup>28</onup>
@@ -337,7 +337,7 @@
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>312</posy>
+					<posy>550</posy>
 					<include>CommonNowPlaying_Controls</include>
 				</control>
 				<control type="button" id="611">

@@ -147,7 +147,7 @@
 				<label>-</label>
 				<texturefocus>PlayerControls-PrevFO.png</texturefocus>
 				<texturenofocus>PlayerControls-PrevNF.png</texturenofocus>
-				<onleft>50</onleft>
+				<onleft>610</onleft>
 				<onright>601</onright>
 				<onup>610</onup>
 				<ondown>611</ondown>
@@ -293,7 +293,7 @@
 				<texturefocus>PlayerControls-FullScreenFO.png</texturefocus>
 				<texturenofocus>PlayerControls-FullScreenNF.png</texturenofocus>
 				<onleft>605</onleft>
-				<onright>50</onright>
+				<onright>611</onright>
 				<onup>610</onup>
 				<ondown>611</ondown>
 				<onclick>FullScreen</onclick>
@@ -301,176 +301,172 @@
 		</control>
 	</include>
 	<include name="CommonNowPlaying">
-		<control type="group">
-			<posx>10</posx>
-			<posy>450</posy>
-			<visible>Player.HasAudio</visible>
-			<visible>![Window.IsVisible(Videos) + Control.IsVisible(56)]</visible>
-			<visible>![Window.IsVisible(Videos) + Control.IsVisible(500)]</visible>
-			<visible>![Window.IsVisible(Music) + Control.IsVisible(500)]</visible>
-			<visible>![Window.IsVisible(Music) + Control.IsVisible(56)]</visible>
-			<visible>![Window.IsVisible(Music) + Control.IsVisible(500)]</visible>
-			<include>VisibleFadeEffect</include>
-			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>180</width>
-				<height>175</height>
-				<texture>$INFO[MusicPlayer.Cover]</texture>
-				<bordertexture border="3">black-back2.png</bordertexture>
-				<bordersize>5</bordersize>
-				<aspectratio align="left">keep</aspectratio>
-				<visible>!Window.IsVisible(Music)</visible>
-				<visible>!Window.IsVisible(Videos)</visible>
+		<param name="posy">450</param>
+		<definition>
+			<control type="group">
+				<posx>10</posx>
+				<posy>$PARAM[posy]</posy>
+				<visible>Player.HasAudio</visible>
+				<visible>![Window.IsVisible(Videos) + Control.IsVisible(56)]</visible>
+				<visible>![Window.IsVisible(Videos) + Control.IsVisible(500)]</visible>
+				<visible>![Window.IsVisible(Music) + Control.IsVisible(500)]</visible>
+				<visible>![Window.IsVisible(Music) + Control.IsVisible(56)]</visible>
+				<visible>![Window.IsVisible(Music) + Control.IsVisible(500)]</visible>
+				<include>VisibleFadeEffect</include>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>180</width>
+					<height>175</height>
+					<texture>$INFO[MusicPlayer.Cover]</texture>
+					<bordertexture border="3">black-back2.png</bordertexture>
+					<bordersize>5</bordersize>
+					<aspectratio align="left">keep</aspectratio>
+					<visible>!Window.IsVisible(Music)</visible>
+					<visible>!Window.IsVisible(Videos)</visible>
+				</control>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>180</width>
+					<height>175</height>
+					<texture>$INFO[MusicPlayer.Cover]</texture>
+					<bordertexture border="3">black-back2.png</bordertexture>
+					<bordersize>5</bordersize>
+					<aspectratio align="left">keep</aspectratio>
+					<visible>Window.IsVisible(Music) + !LastFM.RadioPlaying</visible>
+				</control>
+				<control type="image">
+					<posx>0</posx>
+					<posy>45</posy>
+					<width>180</width>
+					<height>135</height>
+					<texture>$INFO[MusicPlayer.Cover]</texture>
+					<bordertexture border="3">black-back2.png</bordertexture>
+					<bordersize>5</bordersize>
+					<aspectratio align="left">keep</aspectratio>
+					<visible>Window.IsVisible(Music) + LastFM.RadioPlaying</visible>
+				</control>
+				<control type="label">
+					<posx>5</posx>
+					<posy>180</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[MusicPlayer.Time]$INFO[MusicPlayer.Duration, - ]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font11</font>
+					<textcolor>grey2</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scroll>true</scroll>
+				</control>
+				<control type="fadelabel">
+					<posx>5</posx>
+					<posy>203</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[MusicPlayer.Title]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font11</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scrollout>false</scrollout>
+					<pauseatend>2000</pauseatend>
+				</control>
+				<control type="fadelabel">
+					<posx>5</posx>
+					<posy>225</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, | ]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font10</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scrollout>false</scrollout>
+					<pauseatend>2000</pauseatend>
+				</control>
 			</control>
-			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>180</width>
-				<height>175</height>
-				<texture>$INFO[MusicPlayer.Cover]</texture>
-				<bordertexture border="3">black-back2.png</bordertexture>
-				<bordersize>5</bordersize>
-				<aspectratio align="left">keep</aspectratio>
-				<visible>Window.IsVisible(Music) + !LastFM.RadioPlaying</visible>
+			<control type="group">
+				<posx>10</posx>
+				<posy>$PARAM[posy]</posy>
+				<visible>Player.HasVideo</visible>
+				<include>VisibleFadeEffect</include>
+				<control type="image">
+					<posx>0</posx>
+					<posy>10</posy>
+					<width>260</width>
+					<height>165</height>
+					<colordiffuse>AAFFFFFF</colordiffuse>
+					<texture>black-back.png</texture>
+				</control>
+				<control type="videowindow">
+					<posx>5</posx>
+					<posy>15</posy>
+					<width>250</width>
+					<height>155</height>
+				</control>
+				<control type="label">
+					<posx>5</posx>
+					<posy>180</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[VideoPlayer.Time]$INFO[Player.Duration, - ]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font11</font>
+					<textcolor>grey2</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scroll>true</scroll>
+				</control>
+				<control type="fadelabel">
+					<posx>5</posx>
+					<posy>203</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[VideoPlayer.Title]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font11</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scrollout>false</scrollout>
+					<pauseatend>2000</pauseatend>
+				</control>
+				<control type="fadelabel">
+					<posx>5</posx>
+					<posy>225</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[VideoPlayer.TVShowTitle,, - ]$INFO[VideoPlayer.Season,,x]$INFO[VideoPlayer.Episode]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font10</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scrollout>false</scrollout>
+					<pauseatend>2000</pauseatend>
+					<visible>VideoPlayer.Content(Episodes)</visible>
+				</control>
+				<control type="fadelabel">
+					<posx>5</posx>
+					<posy>225</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Director, | ]$INFO[VideoPlayer.Genre, | ]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font10</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scrollout>false</scrollout>
+					<pauseatend>2000</pauseatend>
+					<visible>VideoPlayer.Content(Movies)</visible>
+				</control>
 			</control>
-			<control type="image">
-				<posx>0</posx>
-				<posy>45</posy>
-				<width>180</width>
-				<height>135</height>
-				<texture>$INFO[MusicPlayer.Cover]</texture>
-				<bordertexture border="3">black-back2.png</bordertexture>
-				<bordersize>5</bordersize>
-				<aspectratio align="left">keep</aspectratio>
-				<visible>Window.IsVisible(Music) + LastFM.RadioPlaying</visible>
-			</control>
-			<control type="label">
-				<posx>5</posx>
-				<posy>180</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[MusicPlayer.Time]$INFO[MusicPlayer.Duration, - ]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font11</font>
-				<textcolor>grey2</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scroll>true</scroll>
-			</control>
-			<control type="fadelabel">
-				<posx>5</posx>
-				<posy>203</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[MusicPlayer.Title]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font11</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scrollout>false</scrollout>
-				<pauseatend>2000</pauseatend>
-			</control>
-			<control type="fadelabel">
-				<posx>5</posx>
-				<posy>225</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, | ]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font10</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scrollout>false</scrollout>
-				<pauseatend>2000</pauseatend>
-			</control>
-		</control>
-		<control type="group">
-			<posx>10</posx>
-			<posy>450</posy>
-			<visible>Player.HasVideo</visible>
-			<visible>![Window.IsVisible(Videos) + Control.IsVisible(56)]</visible>
-			<visible>![Window.IsVisible(Videos) + Control.IsVisible(500)]</visible>
-			<visible>![Window.IsVisible(Music) + Control.IsVisible(500)]</visible>
-			<visible>![Window.IsVisible(Music) + Control.IsVisible(56)]</visible>
-			<visible>![Window.IsVisible(Music) + Control.IsVisible(500)]</visible>
-			<include>VisibleFadeEffect</include>
-			<control type="image">
-				<posx>0</posx>
-				<posy>10</posy>
-				<width>260</width>
-				<height>165</height>
-				<colordiffuse>AAFFFFFF</colordiffuse>
-				<texture>black-back.png</texture>
-				<visible>!Window.IsVisible(Videos)</visible>
-			</control>
-			<control type="videowindow">
-				<posx>5</posx>
-				<posy>15</posy>
-				<width>250</width>
-				<height>155</height>
-				<visible>!Window.IsVisible(Videos)</visible>
-			</control>
-			<control type="label">
-				<posx>5</posx>
-				<posy>180</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[VideoPlayer.Time]$INFO[Player.Duration, - ]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font11</font>
-				<textcolor>grey2</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scroll>true</scroll>
-			</control>
-			<control type="fadelabel">
-				<posx>5</posx>
-				<posy>203</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[VideoPlayer.Title]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font11</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scrollout>false</scrollout>
-				<pauseatend>2000</pauseatend>
-			</control>
-			<control type="fadelabel">
-				<posx>5</posx>
-				<posy>225</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[VideoPlayer.TVShowTitle,, - ]$INFO[VideoPlayer.Season,,x]$INFO[VideoPlayer.Episode]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font10</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scrollout>false</scrollout>
-				<pauseatend>2000</pauseatend>
-				<visible>VideoPlayer.Content(Episodes)</visible>
-			</control>
-			<control type="fadelabel">
-				<posx>5</posx>
-				<posy>225</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Director, | ]$INFO[VideoPlayer.Genre, | ]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font10</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scrollout>false</scrollout>
-				<pauseatend>2000</pauseatend>
-				<visible>VideoPlayer.Content(Movies)</visible>
-			</control>
-		</control>
+		</definition>
 	</include>
 	<include name="CommonFileCount">
 		<control type="label">

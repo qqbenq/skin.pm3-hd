@@ -89,7 +89,7 @@
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>135</posy>
+					<posy>550</posy>
 					<include>CommonNowPlaying_Controls</include>
 				</control>
 				<control type="button" id="611">
