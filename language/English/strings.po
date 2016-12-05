@@ -316,3 +316,7 @@ msgstr ""
 msgctxt "#31407"
 msgid "Channels in Group"
 msgstr ""
+
+msgctxt "#31408"
+msgid "Auto-play playlist on startup"
+msgstr "Auto-play playlist on startup"
