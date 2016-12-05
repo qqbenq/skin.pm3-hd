@@ -126,7 +126,7 @@
 		</control>
 		<control type="label">
 			<include>WindowTitleCommons</include>
-			<label>$LOCALIZE[9] - $LOCALIZE[24001]$INFO[Container.Property(AddonCategory), - ]</label>
+			<label>$LOCALIZE[9] - $LOCALIZE[24001]</label>
 		</control>
 		<control type="label">
 			<description>Addon Repo Paths</description>
