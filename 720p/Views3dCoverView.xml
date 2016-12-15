@@ -33,6 +33,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(-4).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -42,7 +43,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-4).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -56,6 +58,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(-3).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -65,7 +68,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-3).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -79,6 +83,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(-2).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -88,7 +93,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-2).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -104,6 +110,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(3).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -113,7 +120,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(3).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -127,6 +135,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(2).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -136,7 +145,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(2).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -150,6 +160,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(1).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -159,7 +170,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(1).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -178,6 +190,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>440</height>
+						<aspectratio>keep</aspectratio>
 						<info>Container(500).ListItem(0).Icon</info>
 						<bordertexture border="4">folder-focus.png</bordertexture>
 						<bordersize>4</bordersize>
@@ -187,7 +200,8 @@
 						<posy>440</posy>
 						<width>300</width>
 						<height>440</height>
-						<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+						<aspectratio>keep</aspectratio>
+						<texture flipy="true" diffuse="diffuse_mirror2.png" />
 						<info>Container(500).ListItem(0).Icon</info>
 						<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">folder-focus.png</bordertexture>
 						<bordersize>4</bordersize>
@@ -202,6 +216,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>440</height>
+						<aspectratio>keep</aspectratio>
 						<info>Container(500).ListItem(-1).Icon</info>
 						<bordertexture border="4">button-nofocus.png</bordertexture>
 						<bordersize>4</bordersize>
@@ -211,7 +226,8 @@
 						<posy>440</posy>
 						<width>300</width>
 						<height>440</height>
-						<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+						<aspectratio>keep</aspectratio>
+						<texture flipy="true" diffuse="diffuse_mirror2.png" />
 						<info>Container(500).ListItem(-1).Icon</info>
 						<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 						<bordersize>4</bordersize>
@@ -235,6 +251,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(4).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -244,7 +261,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(4).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -258,6 +276,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(3).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -267,7 +286,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(3).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -281,6 +301,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(2).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -290,7 +311,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(2).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -306,6 +328,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(-3).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -315,7 +338,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-3).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -329,6 +353,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(-2).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -338,7 +363,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-2).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -352,6 +378,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(-1).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -361,7 +388,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-1).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -380,6 +408,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>440</height>
+						<aspectratio>keep</aspectratio>
 						<info>Container(500).ListItem(0).Icon</info>
 						<bordertexture border="4">folder-focus.png</bordertexture>
 						<bordersize>4</bordersize>
@@ -389,7 +418,8 @@
 						<posy>440</posy>
 						<width>300</width>
 						<height>440</height>
-						<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+						<aspectratio>keep</aspectratio>
+						<texture flipy="true" diffuse="diffuse_mirror2.png" />
 						<info>Container(500).ListItem(0).Icon</info>
 						<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">folder-focus.png</bordertexture>
 						<bordersize>4</bordersize>
@@ -404,6 +434,7 @@
 						<posy>0</posy>
 						<width>300</width>
 						<height>440</height>
+						<aspectratio>keep</aspectratio>
 						<info>Container(500).ListItem(1).Icon</info>
 						<bordertexture border="4">button-nofocus.png</bordertexture>
 						<bordersize>4</bordersize>
@@ -413,7 +444,8 @@
 						<posy>440</posy>
 						<width>300</width>
 						<height>440</height>
-						<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+						<aspectratio>keep</aspectratio>
+						<texture flipy="true" diffuse="diffuse_mirror2.png" />
 						<info>Container(500).ListItem(1).Icon</info>
 						<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 						<bordersize>4</bordersize>
@@ -434,6 +466,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(-3).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -443,7 +476,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-3).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -457,6 +491,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(-2).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -466,7 +501,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-2).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -480,6 +516,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(-1).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -489,7 +526,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-1).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -503,6 +541,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(3).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -512,7 +551,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(3).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -526,6 +566,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(2).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -535,7 +576,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(2).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -549,6 +591,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(1).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -558,7 +601,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(1).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -571,6 +615,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(0).Icon</info>
 					<bordertexture border="4">folder-focus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -581,7 +626,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(0).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">folder-focus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -595,6 +641,7 @@
 					<posy>0</posy>
 					<width>300</width>
 					<height>440</height>
+					<aspectratio>keep</aspectratio>
 					<info>Container(500).ListItem(0).Icon</info>
 					<bordertexture border="4">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -605,7 +652,8 @@
 					<posy>440</posy>
 					<width>300</width>
 					<height>440</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<aspectratio>keep</aspectratio>
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(0).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -722,7 +770,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-4).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -745,7 +793,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-3).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -768,7 +816,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-2).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -793,7 +841,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(3).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -816,7 +864,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(2).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -839,7 +887,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(1).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -867,7 +915,7 @@
 						<posy>350</posy>
 						<width>360</width>
 						<height>350</height>
-						<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+						<texture flipy="true" diffuse="diffuse_mirror2.png" />
 						<info>Container(500).ListItem(0).Icon</info>
 						<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">folder-focus.png</bordertexture>
 						<bordersize>4</bordersize>
@@ -891,7 +939,7 @@
 						<posy>350</posy>
 						<width>360</width>
 						<height>350</height>
-						<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+						<texture flipy="true" diffuse="diffuse_mirror2.png" />
 						<info>Container(500).ListItem(-1).Icon</info>
 						<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 						<bordersize>4</bordersize>
@@ -924,7 +972,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(4).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -947,7 +995,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(3).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -970,7 +1018,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(2).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -995,7 +1043,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-3).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -1018,7 +1066,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-2).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -1041,7 +1089,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-1).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -1069,7 +1117,7 @@
 						<posy>350</posy>
 						<width>360</width>
 						<height>350</height>
-						<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+						<texture flipy="true" diffuse="diffuse_mirror2.png" />
 						<info>Container(500).ListItem(0).Icon</info>
 						<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">folder-focus.png</bordertexture>
 						<bordersize>4</bordersize>
@@ -1093,7 +1141,7 @@
 						<posy>350</posy>
 						<width>360</width>
 						<height>350</height>
-						<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+						<texture flipy="true" diffuse="diffuse_mirror2.png" />
 						<info>Container(500).ListItem(1).Icon</info>
 						<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 						<bordersize>4</bordersize>
@@ -1123,7 +1171,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-3).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -1146,7 +1194,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-2).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -1169,7 +1217,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(-1).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -1192,7 +1240,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(3).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -1215,7 +1263,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(2).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -1238,7 +1286,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(1).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -1261,7 +1309,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(0).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">folder-focus.png</bordertexture>
 					<bordersize>4</bordersize>
@@ -1282,7 +1330,7 @@
 					<posy>350</posy>
 					<width>360</width>
 					<height>350</height>
-					<texture flipy="true" diffuse="diffuse_mirror2.png" /> 
+					<texture flipy="true" diffuse="diffuse_mirror2.png" />
 					<info>Container(500).ListItem(0).Icon</info>
 					<bordertexture border="4" flipy="true" diffuse="diffuse_mirror2.png">button-nofocus.png</bordertexture>
 					<bordersize>4</bordersize>
