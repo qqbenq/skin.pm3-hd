@@ -320,3 +320,7 @@ msgstr ""
 msgctxt "#31408"
 msgid "Auto-play playlist on startup"
 msgstr "Auto-play playlist on startup"
+
+msgctxt "#31409"
+msgid "Edit nodes"
+msgstr "Edit nodes"

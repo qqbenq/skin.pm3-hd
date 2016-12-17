@@ -283,3 +283,7 @@ msgstr "Csoportosított csatornák"
 msgctxt "#31408"
 msgid "Auto-play playlist on startup"
 msgstr "Lejátszási-lista automatikus lejátszása induláskor"
+
+msgctxt "#31409"
+msgid "Edit nodes"
+msgstr "Csomópontok szerkesztése
