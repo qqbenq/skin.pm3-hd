@@ -156,7 +156,7 @@
 					<posx>0</posx>
 					<posy>225</posy>
 					<include>ButtonCommonValues</include>
-					<label>$LOCALIZE[31056]</label>
+					<label>$LOCALIZE[31055]</label>
 					<onclick>ActivateWindow(musicplaylist)</onclick>
 					<visible>Integer.IsGreater(Playlist.Length(music),0)</visible>
 					<onleft>50</onleft>
