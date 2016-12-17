@@ -697,7 +697,7 @@
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>550</posy>
+					<posy>590</posy>
 					<animation effect="slide" start="0,0" end="0,-45" time="0" condition="!Control.IsVisible(5)">conditional</animation>
 					<include>CommonNowPlaying_Controls</include>
 				</control>
