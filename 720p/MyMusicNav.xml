@@ -191,7 +191,7 @@
 				</control>
 				<control type="button" id="610">
 					<description>Fake Button to fix Player Controls Navigation</description>
-					<onup>16</onup>
+					<onup>622</onup>
 					<ondown>603</ondown>
 					<visible>false</visible>
 				</control>

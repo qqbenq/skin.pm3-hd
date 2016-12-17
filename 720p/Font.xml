@@ -1,5 +1,10 @@
 <fonts>
 	<fontset id="Default">
+		<font>
+			<name>font8</name>
+			<filename>LiberationSans-Regular.ttf</filename>
+			<size>12</size>
+		</font>
 	 	<font>
 			<name>font10</name>
 			<filename>LiberationSans-Regular.ttf</filename>
@@ -59,6 +64,11 @@
 		</font>
 	</fontset>
 	<fontset id="Arial">
+		<font>
+			<name>font8</name>
+			<filename>arial.ttf</filename>
+			<size>12</size>
+		</font>
 	 	<font>
 			<name>font10</name>
 			<filename>arial.ttf</filename>

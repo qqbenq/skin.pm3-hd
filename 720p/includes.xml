@@ -349,26 +349,26 @@
 				</control>
 				<control type="label">
 					<posx>5</posx>
-					<posy>180</posy>
+					<posy>170</posy>
 					<width>250</width>
 					<height>20</height>
 					<label>$INFO[MusicPlayer.Time]$INFO[MusicPlayer.Duration, - ]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>font11</font>
+					<font>font8</font>
 					<textcolor>grey2</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>true</scroll>
 				</control>
 				<control type="fadelabel">
 					<posx>5</posx>
-					<posy>203</posy>
+					<posy>188</posy>
 					<width>250</width>
 					<height>20</height>
 					<label>$INFO[MusicPlayer.Title]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>font11</font>
+					<font>font10</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scrollout>false</scrollout>
@@ -376,13 +376,13 @@
 				</control>
 				<control type="fadelabel">
 					<posx>5</posx>
-					<posy>225</posy>
+					<posy>204</posy>
 					<width>250</width>
 					<height>20</height>
 					<label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, | ]</label>
 					<align>left</align>
 					<aligny>center</aligny>
-					<font>font10</font>
+					<font>font8</font>
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scrollout>false</scrollout>
