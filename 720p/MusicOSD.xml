@@ -207,7 +207,6 @@
 				<height>66</height>
 				<texturefocus>osd_button_lyricsFO.png</texturefocus>
 				<texturenofocus>osd_button_lyrics.png</texturenofocus>
-				<onclick>PreviousMenu</onclick>
 				<onclick>XBMC.RunScript($INFO[Skin.String(LyricScript_Path)])</onclick>
 				<label>-</label>
 				<font>-</font>
