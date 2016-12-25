@@ -90,6 +90,8 @@
 			<font>font12</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
+			<orientation>horizontal</orientation>
+
 		</control>
 		<control type="button" id="7">
 			<description>Default Button</description>
@@ -146,7 +148,7 @@
 			<height>100</height>
 			<itemgap>10</itemgap>
 			<onleft>5</onleft>
-			<align>center</align>>
+			<align>center</align>
 			<onright>5</onright>
 			<include content="DefaultDialogButton">
 				<param name="id" value="28" />

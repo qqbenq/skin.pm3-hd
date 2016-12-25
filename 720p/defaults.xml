@@ -153,6 +153,7 @@
 		<aligny>center</aligny>
 	</default>
 	<default type="slider">
+		<orientation>horizontal</orientation>
 		<controloffsetx>75</controloffsetx>
 		<controloffsety>0</controloffsety>
 	</default>
