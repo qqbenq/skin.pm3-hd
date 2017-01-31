@@ -65,7 +65,7 @@
 				<ondown>5</ondown>
 			</control>
 		</control>
-		<control type="sliderex" id="10">
+		<control type="sliderex" id="13">
 			<description>Default Slider</description>
 			<height>35</height>
 			<texturefocus border="3">button-focus.png</texturefocus>
@@ -73,6 +73,7 @@
 			<font>font12</font>
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
+			<orientation>horizontal</orientation>
 		</control>
 		<control type="button" id="7">
 			<description>Default Button</description>
