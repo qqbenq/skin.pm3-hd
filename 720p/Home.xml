@@ -588,7 +588,7 @@
 					</item>
 					<item id="1">
 						<label>3</label>
-						<onclick>ActivateWindow(Videos,FileManager)</onclick>
+						<onclick>ActivateWindow(Videos,Files)</onclick>
 						<icon>special://skin/backgrounds/videos.jpg</icon>
 						<thumb>$INFO[Skin.String(Home_Custom_Back_Video_Folder)]</thumb>
 						<visible>Skin.HasSetting(homepageVideoButtonAlwaysFilemode)</visible>

@@ -2,8 +2,8 @@
 	<defaultcontrol>5</defaultcontrol>
 	<coordinates>
 		<system>1</system>
-		<posx>240</posx>
-		<posy>80</posy>
+		<posx>400</posx>
+		<posy>40</posy>
 	</coordinates>
 	<include>dialogeffect</include>
 	<controls>
@@ -12,7 +12,7 @@
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>800</width>
-			<height>560</height>
+			<height>640</height>
 			<texture border="40">DialogBack.png</texture>
 		</control>
 		<control type="image">
@@ -20,7 +20,7 @@
 			<posx>0</posx>
 			<posy>0</posy>
 			<width>800</width>
-			<height>560</height>
+			<height>640</height>
 			<texture border="40">DialogFront.png</texture>
 		</control>
 		<control type="label" id="2">
@@ -55,7 +55,7 @@
 			<posx>40</posx>
 			<posy>85</posy>
 			<width>693</width>
-			<height>315</height>
+			<height>450</height>
 			<itemgap>5</itemgap>
 			<pagecontrol>60</pagecontrol>
 			<onup>5</onup>
@@ -67,7 +67,7 @@
 		    <posx>734</posx>
 		    <posy>85</posy>
 		    <width>20</width>
-		    <height>315</height>
+		    <height>450</height>
 		    <texturesliderbackground border="2,2,2,2">scrollbar_bar_back2.png</texturesliderbackground>
 		    <texturesliderbar border="2,16,2,16">scrollbar_bar.png</texturesliderbar>
 		    <texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
@@ -142,7 +142,7 @@
 
 		<control type="grouplist" id="9000">
 			<posx>40</posx>
-			<posy>460</posy>
+			<posy>560</posy>
 			<orientation>horizontal</orientation>
 			<width>720</width>
 			<height>100</height>
