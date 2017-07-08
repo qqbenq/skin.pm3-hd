@@ -125,9 +125,9 @@
 				<posy>60r</posy>
 				<width>48</width>
 				<height>48</height>
-				<label>-</label>
-				<font>-</font>
-				<aligny>-</aligny>
+				<label></label>
+				<font></font>
+				<aligny></aligny>
 				<onclick>ActivateWindow(ShutdownMenu)</onclick>
 				<texturefocus>home-power.png</texturefocus>
 				<texturenofocus>home-power.png</texturenofocus>

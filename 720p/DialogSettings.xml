@@ -32,7 +32,7 @@
 			<align>center</align>
 			<aligny>center</aligny>
 			<font>font18</font>
-			<label>-</label>
+			<label></label>
 			<textcolor>dialogheader</textcolor>
 		</control>
 		<control type="button">

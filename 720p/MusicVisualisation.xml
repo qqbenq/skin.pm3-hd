@@ -1,5 +1,5 @@
 <window>
-	<defaultcontrol>-</defaultcontrol>
+	<defaultcontrol></defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<controls>
 		<control type="visualisation" id="2">
@@ -24,7 +24,7 @@
 				<description>row 1 label</description>
 				<posx>50</posx>
 				<posy>40</posy>
-				<label>-</label>
+				<label></label>
 				<align>left</align>
 				<label>$LOCALIZE[445] | $INFO[musicplayer.Codec,Codec: ,]$INFO[musicplayer.Bitrate, - Bitrate: ,kbps]$INFO[musicplayer.bitspersample, - Bits:,bit]$INFO[musicplayer.Samplerate, - Freq.: ,kHz]$INFO[musicplayer.Channels, - Channels: ]</label>
 				<font>font11</font>
@@ -33,7 +33,7 @@
 				<description>row 2 label</description>
 				<posx>50</posx>
 				<posy>70</posy>
-				<label>-</label>
+				<label></label>
 				<align>left</align>
 				<label>Visual | fps: $INFO[System.FPS] - $LOCALIZE[250] - $INFO[Visualisation.Name] - $LOCALIZE[20166]</label>
 				<font>font11</font>
@@ -43,7 +43,7 @@
 				<description>Unlocked row 2 label</description>
 				<posx>50</posx>
 				<posy>70</posy>
-				<label>-</label>
+				<label></label>
 				<align>left</align>
 				<label>Visual | fps: $INFO[System.FPS] - $LOCALIZE[250] - $INFO[Visualisation.Name]</label>
 				<font>font11</font>
@@ -53,7 +53,7 @@
 				<description>row 3 label</description>
 				<posx>50</posx>
 				<posy>100</posy>
-				<label>-</label>
+				<label></label>
 				<align>left</align>
 				<label>$LOCALIZE[13388] | $INFO[Visualisation.Preset]</label>
 				<font>font11</font>

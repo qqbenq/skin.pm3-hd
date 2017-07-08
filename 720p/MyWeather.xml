@@ -631,7 +631,7 @@
 					<description>change location button</description>
 					<posx>0</posx>
 					<posy>0</posy>
-					<font>-</font>
+					<font></font>
 					<textoffsetx>15</textoffsetx>
 					<include>ButtonCommonValues</include>
 					<onleft>99</onleft>

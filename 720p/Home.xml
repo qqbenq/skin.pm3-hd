@@ -506,7 +506,7 @@
 				<onright>22</onright>
 				<onup>9000</onup>
 				<ondown>9000</ondown>
-				<pagecontrol>-</pagecontrol>
+				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
 				<itemlayout height="57" width="345">
 					<control type="image">
@@ -702,9 +702,9 @@
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
-				<label>-</label>
-				<font>-</font>
-				<aligny>-</aligny>
+				<label></label>
+				<font></font>
+				<aligny></aligny>
 				<onclick>XBMC.PlayDVD()</onclick>
 				<texturefocus>home-playmedia.png</texturefocus>
 				<texturenofocus>home-playmedia.png</texturenofocus>
@@ -729,9 +729,9 @@
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
-				<label>-</label>
-				<font>-</font>
-				<aligny>-</aligny>
+				<label></label>
+				<font></font>
+				<aligny></aligny>
 				<onclick>ActivateWindow(Favourites)</onclick>
 				<texturefocus>home-favourites.png</texturefocus>
 				<texturenofocus>home-favourites.png</texturenofocus>
@@ -754,9 +754,9 @@
 				<posy>0</posy>
 				<width>50</width>
 				<height>50</height>
-				<label>-</label>
-				<font>-</font>
-				<aligny>-</aligny>
+				<label></label>
+				<font></font>
+				<aligny></aligny>
 				<onclick>ActivateWindow(ShutdownMenu)</onclick>
 				<texturefocus>home-power.png</texturefocus>
 				<texturenofocus>home-power.png</texturenofocus>

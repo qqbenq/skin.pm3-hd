@@ -94,7 +94,7 @@
 				<width>200</width>
 				<height>30</height>
 				<aspectratio align="left">keep</aspectratio>
-			</control>		
+			</control>
 		</control>
 		<control type="button" id="5">
 			<description>Subtitle Source button</description>
@@ -303,8 +303,8 @@
 				<posy>-45</posy>
 				<width>1280</width>
 				<height>720</height>
-				<texturenofocus>-</texturenofocus>
-				<texturefocus>-</texturefocus>
+				<texturenofocus></texturenofocus>
+				<texturefocus></texturefocus>
 				<onclick>Skin.Reset(SubtitleSourceChooserVisible)</onclick>
 			</control>
 			<control type="group">

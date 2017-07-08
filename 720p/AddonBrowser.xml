@@ -27,7 +27,7 @@
 					<posx>0</posx>
 					<posy>0</posy>
 					<include>ButtonCommonValues</include>
-					<label>-</label>
+					<label></label>
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>611</onup>
@@ -48,7 +48,7 @@
 					<description>Sort asc</description>
 					<posx>250</posx>
 					<posy>58</posy>
-					<label>-</label>
+					<label></label>
 					<onleft>3</onleft>
 					<onright>50</onright>
 					<onup>2</onup>

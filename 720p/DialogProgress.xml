@@ -29,7 +29,7 @@
 			<posy>0</posy>
 			<width>0</width>
 			<height>0</height>
-			<font>-</font>
+			<font></font>
 			<visible>false</visible>
 		</control>
 		<control type="label">
@@ -59,7 +59,7 @@
 			<height>30</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<label>-</label>
+			<label></label>
 			<font>font12</font>
 		</control>
 		<control type="label" id="3">
@@ -70,7 +70,7 @@
 			<height>30</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<label>-</label>
+			<label></label>
 			<font>font12</font>
 			<haspath>yes</haspath>
 		</control>
@@ -82,7 +82,7 @@
 			<height>30</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<label>-</label>
+			<label></label>
 			<font>font12</font>
 			<haspath>yes</haspath>
 		</control>

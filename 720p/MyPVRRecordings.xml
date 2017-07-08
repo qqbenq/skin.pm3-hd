@@ -159,7 +159,7 @@
 				<showonepage>false</showonepage>
 				<orientation>vertical</orientation>
 			</control>
-			
+
 			<control type="group">
 				<left>960</left>
 				<top>130</top>
@@ -205,7 +205,7 @@
 					<width>290</width>
 					<height>2</height>
 					<texture>separator.png</texture>
-				</control> 
+				</control>
 				<control type="label">
 					<description>Disk usage text</description>
 					<left>10</left>
@@ -216,23 +216,22 @@
 					<align>center</align>
 					<aligny>center</aligny>
 					<textcolor>grey</textcolor>
-					<shadowcolor>black</shadowcolor>
-					<font>font12</font>
+					<font>font11</font>
 					<visible>!IntegerGreaterThan(PVR.backenddiskspaceprogr,100)</visible>
 				</control>
 				<control type="progress">
 					<description>Disk usage bar</description>
 					<left>10</left>
-					<top>500</top>
+					<top>510</top>
 					<width>290</width>
-					<height>12</height>>
+					<height>12</height>
 					<info>PVR.backenddiskspaceprogr</info>
 					<visible>!IntegerGreaterThan(PVR.backenddiskspaceprogr,100)</visible>
 				</control>
 			</control>
 		</control>
 
-		
+
 
 		<control type="label">
 			<include>WindowTitleCommons</include>
@@ -242,4 +241,4 @@
 		<include>BehindDialogFadeOut</include>
 	</controls>
 </window>
-		
+

@@ -102,7 +102,7 @@
 			<aligny>center</aligny>
 			<texturefocus border="3">button-focus.png</texturefocus>
 			<texturenofocus border="3">button-nofocus.png</texturenofocus>
-			<label>-</label>
+			<label></label>
 			<onup>9001</onup>
 			<onleft>20</onleft>
 			<onright>20</onright>

@@ -16,7 +16,7 @@
 				<onup>50</onup>
 				<ondown>50</ondown>
 				<viewtype label="21371">panel</viewtype>
-				<pagecontrol>-</pagecontrol>
+				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
 				<preloaditems>2</preloaditems>
 				<itemlayout height="256" width="190">

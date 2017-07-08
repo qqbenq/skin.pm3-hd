@@ -180,9 +180,9 @@
 						<posy>0</posy>
 						<width>32</width>
 						<height>32</height>
-						<label>-</label>
-						<font>-</font>
-						<aligny>-</aligny>
+						<label></label>
+						<font></font>
+						<aligny></aligny>
 						<texturefocus>osd_button_info_1.png</texturefocus>
 						<texturenofocus>osd_button_info_1_nofocus.png</texturenofocus>
 						<onleft>2</onleft>
@@ -196,9 +196,9 @@
 						<posy>0</posy>
 						<width>32</width>
 						<height>32</height>
-						<label>-</label>
-						<font>-</font>
-						<aligny>-</aligny>
+						<label></label>
+						<font></font>
+						<aligny></aligny>
 						<texturefocus>osd_button_info_2.png</texturefocus>
 						<texturenofocus>osd_button_info_2_nofocus.png</texturenofocus>
 						<onleft>1</onleft>
@@ -398,9 +398,9 @@
 						<posy>0</posy>
 						<width>32</width>
 						<height>32</height>
-						<label>-</label>
-						<font>-</font>
-						<aligny>-</aligny>
+						<label></label>
+						<font></font>
+						<aligny></aligny>
 						<texturefocus>osd_button_info_1.png</texturefocus>
 						<texturenofocus>osd_button_info_1_nofocus.png</texturenofocus>
 						<onleft>2</onleft>
@@ -414,9 +414,9 @@
 						<posy>0</posy>
 						<width>32</width>
 						<height>32</height>
-						<label>-</label>
-						<font>-</font>
-						<aligny>-</aligny>
+						<label></label>
+						<font></font>
+						<aligny></aligny>
 						<texturefocus>osd_button_info_2.png</texturefocus>
 						<texturenofocus>osd_button_info_2_nofocus.png</texturenofocus>
 						<onleft>1</onleft>
@@ -725,9 +725,9 @@
 						<posy>0</posy>
 						<width>32</width>
 						<height>32</height>
-						<label>-</label>
-						<font>-</font>
-						<aligny>-</aligny>
+						<label></label>
+						<font></font>
+						<aligny></aligny>
 						<texturefocus>osd_button_info_1.png</texturefocus>
 						<texturenofocus>osd_button_info_1_nofocus.png</texturenofocus>
 						<onleft>2</onleft>
@@ -741,9 +741,9 @@
 						<posy>0</posy>
 						<width>32</width>
 						<height>32</height>
-						<label>-</label>
-						<font>-</font>
-						<aligny>-</aligny>
+						<label></label>
+						<font></font>
+						<aligny></aligny>
 						<texturefocus>osd_button_info_2.png</texturefocus>
 						<texturenofocus>osd_button_info_2_nofocus.png</texturenofocus>
 						<onleft>1</onleft>

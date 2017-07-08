@@ -50,7 +50,7 @@
 			<height>130</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<label>-</label>
+			<label></label>
 			<font>font12</font>
 			<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
 		</control>

@@ -88,7 +88,7 @@
 				<aligny>center</aligny>
 				<texturefocus border="3">button-focus.png</texturefocus>
 				<texturenofocus border="3">button-nofocus.png</texturenofocus>
-				<label>-</label>
+				<label></label>
 				<colordiffuse>FFFFFFFF</colordiffuse>
 				<onup>22</onup>
 				<onleft>12</onleft>

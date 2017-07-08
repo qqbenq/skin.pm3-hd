@@ -75,7 +75,7 @@
 				<onright>50</onright>
 				<onup>49</onup>
 				<ondown>49</ondown>
-				<pagecontrol>-</pagecontrol>
+				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
 				<itemlayout height="30">
 					<control type="label">
@@ -237,7 +237,7 @@
 				<onright>50</onright>
 				<onup>49</onup>
 				<ondown>49</ondown>
-				<pagecontrol>-</pagecontrol>
+				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
 				<itemlayout height="30">
 					<control type="label">
@@ -362,7 +362,7 @@
 				<onright>50</onright>
 				<onup>49</onup>
 				<ondown>49</ondown>
-				<pagecontrol>-</pagecontrol>
+				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
 				<itemlayout height="30">
 					<control type="label">
@@ -517,7 +517,7 @@
 				<onright>50</onright>
 				<onup>49</onup>
 				<ondown>49</ondown>
-				<pagecontrol>-</pagecontrol>
+				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
 				<itemlayout height="30">
 					<control type="label">

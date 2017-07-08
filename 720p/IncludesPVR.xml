@@ -162,7 +162,7 @@
 					<right>40</right>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues</include>
-					<label>-</label>
+					<label></label>
 				</control>
 				<control type="radiobutton" id="5">
 					<description>Group recording items by folder structure</description>
@@ -179,7 +179,7 @@
 					<right>40</right>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues</include>
-					<label>-</label>
+					<label></label>
 					<!-- <visible>Window.IsActive(TVGuide) | Window.IsActive(RadioGuide)</visible> -->
 				</control>
 				<control type="button" id="3">
@@ -191,7 +191,7 @@
 					<description>Sort asc</description>
 					<include>ButtonCommonValues</include>
 					<alttexturefocus border="5">button-focus.png</alttexturefocus>
-					<alttexturenofocus>-</alttexturenofocus>
+					<alttexturenofocus></alttexturenofocus>
 					<label>31051</label>
 					<altlabel>31050</altlabel>
 					<usealttexture>Container.SortDirection(Ascending)</usealttexture>
@@ -222,7 +222,7 @@
 					<description>Sort asc</description>
 					<posx>250</posx>
 					<posy>13</posy>
-					<label>-</label>
+					<label></label>
 					<onleft>3</onleft>
 					<onright>50</onright>
 					<onup>613</onup>
@@ -322,7 +322,7 @@
 					<posx>0</posx>
 					<posy>273</posy>
 					<include>SmallButtonCommonValues</include>
-					<label>-</label>
+					<label></label>
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>613</onup>

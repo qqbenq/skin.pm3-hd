@@ -23,7 +23,7 @@
 					<posx>0</posx>
 					<posy>0</posy>
 					<include>ButtonCommonValues</include>
-					<label>-</label>
+					<label></label>
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>611</onup>
@@ -45,7 +45,7 @@
 					<posx>0</posx>
 					<posy>90</posy>
 					<include>ButtonCommonValues</include>
-					<label>-</label>
+					<label></label>
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>20</onup>

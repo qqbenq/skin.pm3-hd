@@ -56,7 +56,7 @@
 				<height>30</height>
 				<align>center</align>
 				<aligny>center</aligny>
-				<label>-</label>
+				<label></label>
 				<font>font18</font>
 			</control>
 			<control type="image">
@@ -74,7 +74,7 @@
 					<posx>0</posx>
 					<posy>0</posy>
 					<width>910</width>
-					<label>-</label>
+					<label></label>
 					<font>font12</font>
 				</control>
 				<control type="label" id="3">
@@ -82,7 +82,7 @@
 					<posx>0</posx>
 					<posy>37</posy>
 					<width>910</width>
-					<label>-</label>
+					<label></label>
 					<font>font12</font>
 				</control>
 				<control type="label" id="4">
@@ -90,7 +90,7 @@
 					<posx>0</posx>
 					<posy>70</posy>
 					<width>910</width>
-					<label>-</label>
+					<label></label>
 					<font>font12</font>
 				</control>
 				<control type="label" id="5">
@@ -98,7 +98,7 @@
 					<posx>0</posx>
 					<posy>105</posy>
 					<width>910</width>
-					<label>-</label>
+					<label></label>
 					<font>font12</font>
 				</control>
 				<control type="label" id="6">
@@ -106,7 +106,7 @@
 					<posx>0</posx>
 					<posy>140</posy>
 					<width>910</width>
-					<label>-</label>
+					<label></label>
 					<font>font12</font>
 				</control>
 				<control type="label" id="7">
@@ -114,7 +114,7 @@
 					<posx>0</posx>
 					<posy>175</posy>
 					<width>910</width>
-					<label>-</label>
+					<label></label>
 					<font>font12</font>
 				</control>
 				<control type="label" id="8">
@@ -122,7 +122,7 @@
 					<posx>0</posx>
 					<posy>210</posy>
 					<width>910</width>
-					<label>-</label>
+					<label></label>
 					<font>font12</font>
 				</control>
 				<control type="label" id="9">
@@ -130,7 +130,7 @@
 					<posx>0</posx>
 					<posy>245</posy>
 					<width>910</width>
-					<label>-</label>
+					<label></label>
 					<font>font12</font>
 				</control>
 				<control type="label" id="10">
@@ -138,7 +138,7 @@
 					<posx>0</posx>
 					<posy>280</posy>
 					<width>910</width>
-					<label>-</label>
+					<label></label>
 					<font>font12</font>
 				</control>
 				<control type="label" id="11">
@@ -146,7 +146,7 @@
 					<posx>0</posx>
 					<posy>315</posy>
 					<width>910</width>
-					<label>-</label>
+					<label></label>
 					<font>font12</font>
 				</control>
 				<control type="label" id="52">

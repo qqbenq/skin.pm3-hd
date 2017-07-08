@@ -46,7 +46,7 @@
 			<posy>100</posy>
 			<width>1160</width>
 			<height>540</height>
-			<label>-</label>
+			<label></label>
 			<font>font11</font>
 			<align>justify</align>
 			<textcolor>white</textcolor>
