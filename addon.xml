@@ -5,7 +5,7 @@
   name="PM3.HD"
   provider-name="Jezz_X, Team XBMC, TigerbotHesh, qqbenq">
   <requires>
-    <import addon="xbmc.gui" version="5.13.0"/>
+    <import addon="xbmc.gui" version="5.14.0"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
