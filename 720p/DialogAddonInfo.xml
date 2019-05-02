@@ -334,7 +334,7 @@
 					<texturefocus border="5">button-focus2.png</texturefocus>
 					<onleft>60</onleft>
 					<onright>60</onright>
-					<onup>10</onup>
+					<onup>12</onup>
 					<ondown>7</ondown>
 				</control>
 				<control type="button" id="7">
@@ -386,7 +386,7 @@
 					<onleft>60</onleft>
 					<onright>60</onright>
 					<onup>9</onup>
-					<ondown>10</ondown>
+					<ondown>12</ondown>
 				</control>
 				<control type="button" id="12">
 					<description>Start installed addon</description>
@@ -402,7 +402,7 @@
 					<texturefocus border="5">button-focus2.png</texturefocus>
 					<onleft>60</onleft>
 					<onright>60</onright>
-					<onup>10</onup>
+					<onup>8</onup>
 					<ondown>6</ondown>
 				</control>
 				<control type="image">
