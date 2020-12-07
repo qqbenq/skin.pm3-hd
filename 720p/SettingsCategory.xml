@@ -13,7 +13,7 @@
 				<width>950</width>
 				<height>510</height>
 				<itemgap>2</itemgap>
-				<pagecontrol>-</pagecontrol>
+				<pagecontrol></pagecontrol>
 				<onleft>3</onleft>
 				<onright>90</onright>
 				<onup>5</onup>
@@ -32,9 +32,30 @@
 				<itemgap>2</itemgap>
 				<onleft>5</onleft>
 				<onright>5</onright>
-				<onup>20</onup>
-				<ondown>20</ondown>
+				<onup>611</onup>
+				<ondown>610</ondown>
 			</control>
+			<control type="button" id="610">
+					<description>Fake Button to fix Player Controls Navigation</description>
+					<onup>3</onup>
+					<ondown>603</ondown>
+					<onleft>20</onleft>
+					<onright>20</onright>
+					<visible>false</visible>
+				</control>
+				<control type="group">
+					<posx>0</posx>
+					<posy>680</posy>
+					<include>CommonNowPlaying_Controls</include>
+				</control>
+				<control type="button" id="611">
+					<description>Fake Button to fix Player Controls Navigation</description>
+					<onup>603</onup>
+					<onleft>20</onleft>
+					<onright>20</onright>
+					<ondown>3</ondown>
+					<visible>false</visible>
+				</control>
 		</control>
 		<control type="button" id="10">
 			<description>Default Category Button</description>
@@ -49,7 +70,7 @@
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="7">list-focus.png</texturefocus>
-			<texturenofocus>-</texturenofocus>
+			<texturenofocus></texturenofocus>
 		</control>
 		<control type="radiobutton" id="8">
 			<description>Default RadioButton</description>
@@ -61,7 +82,7 @@
 			<focusedcolor>white</focusedcolor>
 			<textureradioon>radiobutton-focus-2.png</textureradioon>
 			<texturefocus border="7">list-focus.png</texturefocus>
-			<texturenofocus>-</texturenofocus>
+			<texturenofocus></texturenofocus>
 		</control>
 		<control type="spincontrolex" id="9">
 			<description>Default SpinControlex</description>
@@ -72,9 +93,25 @@
 			<textcolor>grey2</textcolor>
 			<focusedcolor>white</focusedcolor>
 			<texturefocus border="7">list-focus.png</texturefocus>
-			<texturenofocus>-</texturenofocus>
+			<texturenofocus></texturenofocus>
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
+		</control>
+		<control type="sliderex" id="13">
+			<description>Default Slider</description>
+			<posx>0</posx>
+			<posy>0</posy>
+			<height>40</height>
+			<font>font13</font>
+			<textcolor>grey2</textcolor>
+			<focusedcolor>white</focusedcolor>
+			<texturefocus border="0,2,0,2">MenuItemFO.png</texturefocus>
+			<texturenofocus border="0,2,0,2">MenuItemNF.png</texturenofocus>
+			<aligny>center</aligny>
+		</control>
+		<control type="label" id="14">
+			<description>Default Label</description>
+			<include>DefaultSettingLabel</include>
 		</control>
 		<control type="image" id="11">
 			<description>separator image</description>
@@ -94,27 +131,27 @@
 			<posy>0</posy>
 			<width>0</width>
 			<height>0</height>
-			<font>-</font>
+			<font></font>
 			<visible>false</visible>
 		</control>
 		<control type="button" id="20">
 				<description>Setting level button</description>
-				<left>0</left>
-				<top>629</top>
+				<left>1000</left>
+				<top>685</top>
 				<height>35</height>
 				<width>280</width>
 				<font>font11</font>
 				<align>center</align>
 				<textcolor>grey2</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<label>10037</label>	
+				<label>10037</label>
 				<onclick>SettingsLevelChange</onclick>
 				<texturefocus border="3">button-focus2.png</texturefocus>
-			<texturenofocus border="3">button-nofocus.png</texturenofocus> 
-				<onleft>5</onleft>
-				<onright>5</onright>
-				<onup>3</onup>
-				<ondown>3</ondown>
+			<texturenofocus border="3">button-nofocus.png</texturenofocus>
+				<onleft>603</onleft>
+				<onright>603</onright>
+				<onup>5</onup>
+				<ondown>5</ondown>
 			</control>
 		<control type="label">
 			<include>WindowTitleCommons</include>

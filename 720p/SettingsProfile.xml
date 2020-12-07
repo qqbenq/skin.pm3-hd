@@ -29,7 +29,7 @@
 						<texture fallback="unknown-user.png">$INFO[Listitem.Icon]</texture>
 					</control>
 					<control type="label">
-						<posx>94</posx>
+						<posx>6</posx>
 						<posy>145</posy>
 						<width>178</width>
 						<height>25</height>
@@ -52,7 +52,7 @@
 						<texture fallback="unknown-user.png">$INFO[Listitem.Icon]</texture>
 					</control>
 					<control type="label">
-						<posx>94</posx>
+						<posx>6</posx>
 						<posy>145</posy>
 						<width>178</width>
 						<height>25</height>
@@ -156,7 +156,7 @@
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>45</posy>
+					<posy>550</posy>
 					<include>CommonNowPlaying_Controls</include>
 				</control>
 				<control type="button" id="611">

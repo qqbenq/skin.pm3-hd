@@ -108,7 +108,7 @@
 				<posy>270</posy>
 				<width>270</width>
 				<height>25</height>
-				<label fallback="416">$INFO[ListItem.Property(Addon.Creator)]</label>
+				<label fallback="416">$INFO[ListItem.AddonCreator]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
@@ -120,7 +120,7 @@
 				<posy>300</posy>
 				<width>270</width>
 				<height>25</height>
-				<label>$LOCALIZE[24051][COLOR=white]   $INFO[ListItem.Property(Addon.Version)][/COLOR]</label>
+				<label>$LOCALIZE[24051][COLOR=white]   $INFO[ListItem.AddonVersion][/COLOR]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
@@ -132,19 +132,21 @@
 				<posy>330</posy>
 				<width>90</width>
 				<height>25</height>
-				<label>$LOCALIZE[563]:</label>
+				<label>$LOCALIZE[289]:</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
 				<textcolor>grey</textcolor>
+				<visible>!String.IsEmpty(ListItem.AddonSize)</visible>
 			</control>
-			<control type="image">
+			<control type="textbox">
 				<description>Rating value</description>
 				<posx>90</posx>
 				<posy>325</posy>
 				<width>160</width>
 				<height>32</height>
-				<texture>$INFO[ListItem.Property(Addon.StarRating)]</texture>
+				<label>$INFO[ListItem.AddonSize]</label>
+				<visible>!String.IsEmpty(ListItem.AddonSize)</visible>
 			</control>
 			<control type="image">
 				<posx>0</posx>
@@ -163,7 +165,7 @@
 			<font>font11</font>
 			<align>justify</align>
 			<textcolor>white</textcolor>
-			<label>$INFO[ListItem.Property(Addon.Description)]</label>
+			<label>$INFO[ListItem.AddonDescription]</label>
 			<autoscroll time="2000" delay="3000" repeat="5000">Skin.HasSetting(AutoScroll)</autoscroll>
 			<visible>Control.IsVisible(550)</visible>
 		</control>

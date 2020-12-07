@@ -16,7 +16,7 @@
 				<onup>50</onup>
 				<ondown>50</ondown>
 				<viewtype label="21371">panel</viewtype>
-				<pagecontrol>-</pagecontrol>
+				<pagecontrol></pagecontrol>
 				<scrolltime>200</scrolltime>
 				<preloaditems>2</preloaditems>
 				<itemlayout height="256" width="190">
@@ -73,19 +73,19 @@
 				</focusedlayout>
 				<content>
 					<item>
-						<label>3</label>
-						<onclick>ActivateWindow(MyVideosSettings)</onclick>
-						<icon>icon_video.png</icon>
+						<label>14200</label>
+						<onclick>ActivateWindow(PlayerSettings)</onclick>
+						<icon>icon_tv.png</icon>
 					</item>
 					<item>
-						<label>2</label>
-						<onclick>ActivateWindow(MyMusicSettings)</onclick>
-						<icon>icon_music.png</icon>
+						<label>14202</label>
+						<onclick>ActivateWindow(MediaSettings)</onclick>
+						<icon>DefaultPlaylist.png</icon>
 					</item>
 					<item>
-						<label>1</label>
-						<onclick>ActivateWindow(MyPicturesSettings)</onclick>
-						<icon>icon_pics.png</icon>
+						<label>14206</label>
+						<onclick>ActivateWindow(InterfaceSettings)</onclick>
+						<icon>icon_appearence.png</icon>
 					</item>
 					<item>
 						<label>24001</label>
@@ -93,19 +93,9 @@
 						<icon>icon_addons.png</icon>
 					</item>
 					<item>
-						<label>31400</label>
-						<onclick>ActivateWindow(MyTVSettings)</onclick>
-						<icon>icon_tv.png</icon>
-					</item>
-					<item>
 						<label>13200</label>
 						<onclick>ActivateWindow(Profiles)</onclick>
 						<icon>unknown-user.png</icon>
-					</item>
-					<item>
-						<label>8</label>
-						<onclick>ActivateWindow(MyWeatherSettings)</onclick>
-						<icon>icon_weather.png</icon>
 					</item>
 					<item>
 						<label>14036</label>
@@ -116,11 +106,6 @@
 						<label>13000</label>
 						<onclick>ActivateWindow(SystemSettings)</onclick>
 						<icon>icon_system.png</icon>
-					</item>
-					<item>
-						<label>480</label>
-						<onclick>ActivateWindow(AppearanceSettings)</onclick>
-						<icon>icon_appearence.png</icon>
 					</item>
 				</content>
 			</control>
@@ -151,7 +136,7 @@
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>45</posy>
+					<posy>550</posy>
 					<include>CommonNowPlaying_Controls</include>
 				</control>
 				<control type="button" id="611">

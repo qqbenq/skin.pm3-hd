@@ -304,7 +304,7 @@
 								<font>font10</font>
 								<align>justify</align>
 								<textcolor>white</textcolor>
-								<pagecontrol>-</pagecontrol>
+								<pagecontrol></pagecontrol>
 								<label>$INFO[ListItem.Plot]</label>
 							</control>
 						</focusedlayout>
@@ -642,7 +642,7 @@
 								<font>font10</font>
 								<align>justify</align>
 								<textcolor>white</textcolor>
-								<pagecontrol>-</pagecontrol>
+								<pagecontrol></pagecontrol>
 								<label>$INFO[ListItem.Plot]</label>
 							</control>
 						</focusedlayout>
@@ -2266,7 +2266,7 @@
 			<posy>0</posy>
 			<width>0</width>
 			<height>0</height>
-			<font>-</font>
+			<font></font>
 			<visible>false</visible>
 		</control>
 		<control type="label" id="30">
@@ -2275,7 +2275,7 @@
 			<posy>0</posy>
 			<width>0</width>
 			<height>0</height>
-			<font>-</font>
+			<font></font>
 			<visible>false</visible>
 		</control>
 		<control type="label">

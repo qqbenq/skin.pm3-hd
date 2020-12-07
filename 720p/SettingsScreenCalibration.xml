@@ -65,7 +65,7 @@
 				<posx>20</posx>
 				<posy>10</posy>
 				<width>750</width>
-				<label>-</label>
+				<label></label>
 				<align>center</align>
 				<font>font13</font>
 			</control>
@@ -74,7 +74,7 @@
 				<posx>20</posx>
 				<posy>40</posy>
 				<width>750</width>
-				<label>-</label>
+				<label></label>
 				<align>center</align>
 				<font>font13</font>
 			</control>

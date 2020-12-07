@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.pm3-hd"
-  version="2.5.1"
+  version="2.6.4"
   name="PM3.HD"
-  provider-name="Jezz_X, Team XBMC, qqbenq">
+  provider-name="Jezz_X, Team XBMC, TigerbotHesh, qqbenq">
   <requires>
-    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="xbmc.gui" version="5.14.0"/>
   </requires>
   <extension
     point="xbmc.gui.skin"

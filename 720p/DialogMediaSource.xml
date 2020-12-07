@@ -69,7 +69,7 @@
 			<onleft>9000</onleft>
 			<onright>9000</onright>
 			<ondown>12</ondown>
-			<pagecontrol>-</pagecontrol>
+			<pagecontrol></pagecontrol>
 			<scrolltime>200</scrolltime>
 			<itemlayout height="40">
 				<control type="image">
@@ -201,7 +201,7 @@
 			<height>35</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<label>-</label>
+			<label></label>
 			<font>font12</font>
 			<texturefocus border="3">button-focus.png</texturefocus>
 			<texturenofocus border="3">button-nofocus.png</texturenofocus>

@@ -631,7 +631,7 @@
 					<description>change location button</description>
 					<posx>0</posx>
 					<posy>0</posy>
-					<font>-</font>
+					<font></font>
 					<textoffsetx>15</textoffsetx>
 					<include>ButtonCommonValues</include>
 					<onleft>99</onleft>
@@ -681,7 +681,7 @@
 					<posx>0</posx>
 					<posy>135</posy>
 					<label>5</label>
-					<onclick>ActivateWindow(MyWeatherSettings)</onclick>
+					<onclick>ActivateWindow(servicesettings,weather)</onclick>
 					<include>ButtonCommonValues</include>
 					<onleft>50</onleft>
 					<onright>50</onright>
@@ -697,7 +697,7 @@
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>180</posy>
+					<posy>590</posy>
 					<animation effect="slide" start="0,0" end="0,-45" time="0" condition="!Control.IsVisible(5)">conditional</animation>
 					<include>CommonNowPlaying_Controls</include>
 				</control>

@@ -20,7 +20,7 @@
 			<posy>5</posy>
 			<width>45</width>
 			<height>40</height>
-			<label>-</label>
+			<label></label>
 			<texturefocus>PlayerControls-PrevFO.png</texturefocus>
 			<texturenofocus>PlayerControls-PrevNF.png</texturenofocus>
 			<onleft>407</onleft>
@@ -34,7 +34,7 @@
 			<posy>5</posy>
 			<width>45</width>
 			<height>40</height>
-			<label>-</label>
+			<label></label>
 			<texturefocus>PlayerControls-RewindFO.png</texturefocus>
 			<texturenofocus>PlayerControls-RewindNF.png</texturenofocus>
 			<onleft>400</onleft>
@@ -48,7 +48,7 @@
 			<posy>5</posy>
 			<width>45</width>
 			<height>40</height>
-			<label>-</label>
+			<label></label>
 			<texturefocus>PlayerControls-StopFO.png</texturefocus>
 			<texturenofocus>PlayerControls-StopNF.png</texturenofocus>
 			<onleft>401</onleft>
@@ -62,7 +62,7 @@
 			<posy>5</posy>
 			<width>45</width>
 			<height>40</height>
-			<label>-</label>
+			<label></label>
 			<texturefocus>PlayerControls-PauseFO.png</texturefocus>
 			<texturenofocus>PlayerControls-PauseNF.png</texturenofocus>
 			<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
@@ -79,7 +79,7 @@
 			<posy>5</posy>
 			<width>45</width>
 			<height>40</height>
-			<label>-</label>
+			<label></label>
 			<texturefocus>PlayerControls-ForwardFO.png</texturefocus>
 			<texturenofocus>PlayerControls-ForwardNF.png</texturenofocus>
 			<onleft>403</onleft>
@@ -93,7 +93,7 @@
 			<posy>5</posy>
 			<width>45</width>
 			<height>40</height>
-			<label>-</label>
+			<label></label>
 			<texturefocus>PlayerControls-NextFO.png</texturefocus>
 			<texturenofocus>PlayerControls-NextNF.png</texturenofocus>
 			<onleft>404</onleft>
@@ -107,9 +107,9 @@
 			<posy>5</posy>
 			<width>45</width>
 			<height>40</height>
-			<label>-</label>
-			<texturefocus>-</texturefocus>
-			<texturenofocus>-</texturenofocus>
+			<label></label>
+			<texturefocus></texturefocus>
+			<texturenofocus></texturenofocus>
 			<onclick>XBMC.PlayerControl(Repeat)</onclick>
 			<onleft>405</onleft>
 			<onright>407</onright>
@@ -175,7 +175,7 @@
 			<posy>5</posy>
 			<width>42</width>
 			<height>40</height>
-			<label>-</label>
+			<label></label>
 			<texturefocus>PlayerControls-RandomFO.png</texturefocus>
 			<texturenofocus>PlayerControls-RandomNF.png</texturenofocus>
 			<usealttexture>Playlist.IsRandom</usealttexture>

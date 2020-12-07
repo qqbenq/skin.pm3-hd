@@ -422,6 +422,12 @@
 				<texturenofocus border="3">button-nofocus.png</texturenofocus>
 				<texturefocus border="3">button-focus2.png</texturefocus>
 			</control>
+			<control type="radiobutton" id="25">
+				<description>Hide Group</description>
+				<width>250</width>
+				<include>ButtonInfoDialogsCommonValues</include>
+				<label>19289</label>
+			</control>
 			<control type="button" id="28">
 				<description>Delete button</description>
 				<width>250</width>

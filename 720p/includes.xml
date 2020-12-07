@@ -2,7 +2,7 @@
 	<include file="defaults.xml" />
 	<include file="IncludesCodecFlagging.xml" />
 	<include file="ViewsVideoLibrary.xml" />
-	<include file="ViewsMusicLibrary.xml" />
+	<include file="ViewsMusic.xml" />
 	<include file="ViewsFileMode.xml" />
 	<include file="Views3dCoverView.xml" />
 	<include file="ViewsAddonBrowser.xml" />
@@ -83,8 +83,8 @@
 	<include name="WindowCloseButtonCommons">
 		<width>30</width>
 		<height>30</height>
-		<label>-</label>
-		<font>-</font>
+		<label></label>
+		<font></font>
 		<onclick>PreviousMenu</onclick>
 		<texturefocus>close-windowFO.png</texturefocus>
 		<texturenofocus>close-window.png</texturenofocus>
@@ -144,10 +144,10 @@
 				<posy>2</posy>
 				<width>32</width>
 				<height>28</height>
-				<label>-</label>
+				<label></label>
 				<texturefocus>PlayerControls-PrevFO.png</texturefocus>
 				<texturenofocus>PlayerControls-PrevNF.png</texturenofocus>
-				<onleft>50</onleft>
+				<onleft>610</onleft>
 				<onright>601</onright>
 				<onup>610</onup>
 				<ondown>611</ondown>
@@ -158,7 +158,7 @@
 				<posy>2</posy>
 				<width>32</width>
 				<height>28</height>
-				<label>-</label>
+				<label></label>
 				<texturefocus>PlayerControls-StopFO.png</texturefocus>
 				<texturenofocus>PlayerControls-StopNF.png</texturenofocus>
 				<onleft>600</onleft>
@@ -173,7 +173,7 @@
 				<posy>2</posy>
 				<width>32</width>
 				<height>28</height>
-				<label>-</label>
+				<label></label>
 				<texturefocus>PlayerControls-PauseFO.png</texturefocus>
 				<texturenofocus>PlayerControls-PauseNF.png</texturenofocus>
 				<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
@@ -190,7 +190,7 @@
 				<posy>2</posy>
 				<width>32</width>
 				<height>28</height>
-				<label>-</label>
+				<label></label>
 				<texturefocus>PlayerControls-NextFO.png</texturefocus>
 				<texturenofocus>PlayerControls-NextNF.png</texturenofocus>
 				<onleft>603</onleft>
@@ -204,9 +204,9 @@
 				<posy>2</posy>
 				<width>32</width>
 				<height>28</height>
-				<label>-</label>
-				<texturefocus>-</texturefocus>
-				<texturenofocus>-</texturenofocus>
+				<label></label>
+				<texturefocus></texturefocus>
+				<texturenofocus></texturenofocus>
 				<onclick>XBMC.PlayerControl(Repeat)</onclick>
 				<onleft>602</onleft>
 				<onright>605</onright>
@@ -272,7 +272,7 @@
 				<posy>2</posy>
 				<width>32</width>
 				<height>28</height>
-				<label>-</label>
+				<label></label>
 				<texturefocus>PlayerControls-RandomFO_2.png</texturefocus>
 				<texturenofocus>PlayerControls-RandomNF_2.png</texturenofocus>
 				<usealttexture>Playlist.IsRandom</usealttexture>
@@ -289,11 +289,11 @@
 				<posy>2</posy>
 				<width>32</width>
 				<height>28</height>
-				<label>-</label>
+				<label></label>
 				<texturefocus>PlayerControls-FullScreenFO.png</texturefocus>
 				<texturenofocus>PlayerControls-FullScreenNF.png</texturenofocus>
 				<onleft>605</onleft>
-				<onright>50</onright>
+				<onright>611</onright>
 				<onup>610</onup>
 				<ondown>611</ondown>
 				<onclick>FullScreen</onclick>
@@ -301,174 +301,172 @@
 		</control>
 	</include>
 	<include name="CommonNowPlaying">
-		<control type="group">
-			<posx>10</posx>
-			<posy>480</posy>
-			<visible>Player.HasAudio</visible>
-			<visible>![Window.IsVisible(Videos) + Control.IsVisible(56)]</visible>
-			<visible>![Window.IsVisible(Videos) + Control.IsVisible(500)]</visible>
-			<visible>![Window.IsVisible(MusicLibrary) + Control.IsVisible(500)]</visible>
-			<visible>![Window.IsVisible(MusicLibrary) + Control.IsVisible(56)]</visible>
-			<visible>![Window.IsVisible(MusicFiles) + Control.IsVisible(500)]</visible>
-			<include>VisibleFadeEffect</include>
-			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>180</width>
-				<height>175</height>
-				<texture>$INFO[MusicPlayer.Cover]</texture>
-				<bordertexture border="3">black-back2.png</bordertexture>
-				<bordersize>5</bordersize>
-				<aspectratio align="left">keep</aspectratio>
-				<visible>!Window.IsVisible(MusicLibrary)</visible>
-				<visible>!Window.IsVisible(Videos)</visible>
+		<param name="posy">450</param>
+		<definition>
+			<control type="group">
+				<posx>10</posx>
+				<posy>$PARAM[posy]</posy>
+				<visible>Player.HasAudio</visible>
+				<visible>![Window.IsVisible(Videos) + Control.IsVisible(56)]</visible>
+				<visible>![Window.IsVisible(Videos) + Control.IsVisible(500)]</visible>
+				<visible>![Window.IsVisible(Music) + Control.IsVisible(500)]</visible>
+				<visible>![Window.IsVisible(Music) + Control.IsVisible(56)]</visible>
+				<visible>![Window.IsVisible(Music) + Control.IsVisible(500)]</visible>
+				<include>VisibleFadeEffect</include>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>180</width>
+					<height>175</height>
+					<texture>$INFO[MusicPlayer.Cover]</texture>
+					<bordertexture border="3">black-back2.png</bordertexture>
+					<bordersize>5</bordersize>
+					<aspectratio align="left">keep</aspectratio>
+					<visible>!Window.IsVisible(Music)</visible>
+					<visible>!Window.IsVisible(Videos)</visible>
+				</control>
+				<control type="image">
+					<posx>0</posx>
+					<posy>0</posy>
+					<width>180</width>
+					<height>175</height>
+					<texture>$INFO[MusicPlayer.Cover]</texture>
+					<bordertexture border="3">black-back2.png</bordertexture>
+					<bordersize>5</bordersize>
+					<aspectratio align="left">keep</aspectratio>
+					<visible>Window.IsVisible(Music) + !LastFM.RadioPlaying</visible>
+				</control>
+				<control type="image">
+					<posx>0</posx>
+					<posy>45</posy>
+					<width>180</width>
+					<height>135</height>
+					<texture>$INFO[MusicPlayer.Cover]</texture>
+					<bordertexture border="3">black-back2.png</bordertexture>
+					<bordersize>5</bordersize>
+					<aspectratio align="left">keep</aspectratio>
+					<visible>Window.IsVisible(Music) + LastFM.RadioPlaying</visible>
+				</control>
+				<control type="label">
+					<posx>5</posx>
+					<posy>170</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[MusicPlayer.Time]$INFO[MusicPlayer.Duration, - ]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font8</font>
+					<textcolor>grey2</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scroll>true</scroll>
+				</control>
+				<control type="fadelabel">
+					<posx>5</posx>
+					<posy>188</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[MusicPlayer.Title]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font10</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scrollout>false</scrollout>
+					<pauseatend>2000</pauseatend>
+				</control>
+				<control type="fadelabel">
+					<posx>5</posx>
+					<posy>204</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, | ]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font8</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scrollout>false</scrollout>
+					<pauseatend>2000</pauseatend>
+				</control>
 			</control>
-			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
-				<width>180</width>
-				<height>175</height>
-				<texture>$INFO[MusicPlayer.Cover]</texture>
-				<bordertexture border="3">black-back2.png</bordertexture>
-				<bordersize>5</bordersize>
-				<aspectratio align="left">keep</aspectratio>
-				<visible>Window.IsVisible(MusicLibrary) + !LastFM.RadioPlaying</visible>
+			<control type="group">
+				<posx>10</posx>
+				<posy>$PARAM[posy]</posy>
+				<visible>Player.HasVideo</visible>
+				<include>VisibleFadeEffect</include>
+				<control type="image">
+					<posx>0</posx>
+					<posy>10</posy>
+					<width>260</width>
+					<height>165</height>
+					<colordiffuse>AAFFFFFF</colordiffuse>
+					<texture>black-back.png</texture>
+				</control>
+				<control type="videowindow">
+					<posx>5</posx>
+					<posy>15</posy>
+					<width>250</width>
+					<height>155</height>
+				</control>
+				<control type="label">
+					<posx>5</posx>
+					<posy>180</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[VideoPlayer.Time]$INFO[Player.Duration, - ]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font11</font>
+					<textcolor>grey2</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scroll>true</scroll>
+				</control>
+				<control type="fadelabel">
+					<posx>5</posx>
+					<posy>203</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[VideoPlayer.Title]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font11</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scrollout>false</scrollout>
+					<pauseatend>2000</pauseatend>
+				</control>
+				<control type="fadelabel">
+					<posx>5</posx>
+					<posy>225</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[VideoPlayer.TVShowTitle,, - ]$INFO[VideoPlayer.Season,,x]$INFO[VideoPlayer.Episode]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font10</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scrollout>false</scrollout>
+					<pauseatend>2000</pauseatend>
+					<visible>VideoPlayer.Content(Episodes)</visible>
+				</control>
+				<control type="fadelabel">
+					<posx>5</posx>
+					<posy>225</posy>
+					<width>250</width>
+					<height>20</height>
+					<label>$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Director, | ]$INFO[VideoPlayer.Genre, | ]</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>font10</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<scrollout>false</scrollout>
+					<pauseatend>2000</pauseatend>
+					<visible>VideoPlayer.Content(Movies)</visible>
+				</control>
 			</control>
-			<control type="image">
-				<posx>0</posx>
-				<posy>45</posy>
-				<width>180</width>
-				<height>135</height>
-				<texture>$INFO[MusicPlayer.Cover]</texture>
-				<bordertexture border="3">black-back2.png</bordertexture>
-				<bordersize>5</bordersize>
-				<aspectratio align="left">keep</aspectratio>
-				<visible>Window.IsVisible(MusicLibrary) + LastFM.RadioPlaying</visible>
-			</control>
-			<control type="label">
-				<posx>5</posx>
-				<posy>180</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[MusicPlayer.Time]$INFO[MusicPlayer.Duration, - ]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font11</font>
-				<textcolor>grey2</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scroll>true</scroll>
-			</control>
-			<control type="fadelabel">
-				<posx>5</posx>
-				<posy>203</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[MusicPlayer.Title]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font11</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scrollout>false</scrollout>
-				<pauseatend>2000</pauseatend>
-			</control>
-			<control type="fadelabel">
-				<posx>5</posx>
-				<posy>225</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, | ]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font10</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scrollout>false</scrollout>
-				<pauseatend>2000</pauseatend>
-			</control>
-		</control>
-		<control type="group">
-			<posx>10</posx>
-			<posy>480</posy>
-			<visible>Player.HasVideo</visible>
-			<visible>![Window.IsVisible(Videos) + Control.IsVisible(56)]</visible>
-			<visible>![Window.IsVisible(Videos) + Control.IsVisible(500)]</visible>
-			<visible>![Window.IsVisible(MusicLibrary) + Control.IsVisible(500)]</visible>
-			<visible>![Window.IsVisible(MusicLibrary) + Control.IsVisible(56)]</visible>
-			<visible>![Window.IsVisible(MusicFiles) + Control.IsVisible(500)]</visible>
-			<include>VisibleFadeEffect</include>
-			<control type="image">
-				<posx>0</posx>
-				<posy>10</posy>
-				<width>260</width>
-				<height>165</height>
-				<colordiffuse>AAFFFFFF</colordiffuse>
-				<texture>black-back.png</texture>
-			</control>
-			<control type="videowindow">
-				<posx>5</posx>
-				<posy>15</posy>
-				<width>250</width>
-				<height>155</height>
-			</control>
-			<control type="label">
-				<posx>5</posx>
-				<posy>180</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[VideoPlayer.Time]$INFO[Player.Duration, - ]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font11</font>
-				<textcolor>grey2</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scroll>true</scroll>
-			</control>
-			<control type="fadelabel">
-				<posx>5</posx>
-				<posy>203</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[VideoPlayer.Title]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font11</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scrollout>false</scrollout>
-				<pauseatend>2000</pauseatend>
-			</control>
-			<control type="fadelabel">
-				<posx>5</posx>
-				<posy>225</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[VideoPlayer.TVShowTitle,, - ]$INFO[VideoPlayer.Season,,x]$INFO[VideoPlayer.Episode]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font10</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scrollout>false</scrollout>
-				<pauseatend>2000</pauseatend>
-				<visible>VideoPlayer.Content(Episodes)</visible>
-			</control>
-			<control type="fadelabel">
-				<posx>5</posx>
-				<posy>225</posy>
-				<width>250</width>
-				<height>20</height>
-				<label>$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Director, | ]$INFO[VideoPlayer.Genre, | ]</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>font10</font>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-				<scrollout>false</scrollout>
-				<pauseatend>2000</pauseatend>
-				<visible>VideoPlayer.Content(Movies)</visible>
-			</control>
-		</control>
+		</definition>
 	</include>
 	<include name="CommonFileCount">
 		<control type="label">
@@ -486,21 +484,21 @@
 		</control>
 	</include>
 	<include name="AllViewCommonPageControls">
-		<control type="scrollbar" id="61"> 
-			<posx>300</posx> 
-			<posy>630</posy> 
-			<width>970</width> 
-			<height>20</height> 
-			<texturesliderbackground border="2,2,2,2">scrollbar_bar_back.png</texturesliderbackground> 
-			<texturesliderbar border="16,2,16,2">scrollbar_bar-vertical.png</texturesliderbar> 
-			<texturesliderbarfocus border="16,2,16,2">scrollbar_bar_focus-vertical.png</texturesliderbarfocus> 
-			<textureslidernib>scrollbar_nib-vertical.png</textureslidernib> 
-			<textureslidernibfocus>scrollbar_nib-vertical.png</textureslidernibfocus> 
-			<onup>50</onup> 
-			<ondown>9000</ondown> 
-			<showonepage>false</showonepage> 
-			<orientation>horizontal</orientation> 
-			<visible>Control.IsVisible(57)</visible> 
+		<control type="scrollbar" id="61">
+			<posx>300</posx>
+			<posy>630</posy>
+			<width>970</width>
+			<height>20</height>
+			<texturesliderbackground border="2,2,2,2">scrollbar_bar_back.png</texturesliderbackground>
+			<texturesliderbar border="16,2,16,2">scrollbar_bar-vertical.png</texturesliderbar>
+			<texturesliderbarfocus border="16,2,16,2">scrollbar_bar_focus-vertical.png</texturesliderbarfocus>
+			<textureslidernib>scrollbar_nib-vertical.png</textureslidernib>
+			<textureslidernibfocus>scrollbar_nib-vertical.png</textureslidernibfocus>
+			<onup>50</onup>
+			<ondown>9000</ondown>
+			<showonepage>false</showonepage>
+			<orientation>horizontal</orientation>
+			<visible>Control.IsVisible(57)</visible>
 		</control>
 		<control type="scrollbar" id="60">
 			<posx>1255</posx>
@@ -516,7 +514,7 @@
 			<onright>9000</onright>
 			<showonepage>false</showonepage>
 			<orientation>vertical</orientation>
-			<visible>[Control.IsVisible(59) + Window.IsVisible(MusicFiles)] | [Control.IsVisible(59) + Window.IsVisible(MusicLibrary)] | [Control.IsVisible(59) + Window.IsVisible(MusicPlaylist)] | [Control.IsVisible(58) + Window.IsVisible(Videos)] | Control.IsVisible(550)</visible>
+			<visible>[Control.IsVisible(59) + Window.IsVisible(Music)] | [Control.IsVisible(59) + Window.IsVisible(Music)] | [Control.IsVisible(59) + Window.IsVisible(MusicPlaylist)] | [Control.IsVisible(58) + Window.IsVisible(Videos)] | Control.IsVisible(550)</visible>
 		</control>
 		<control type="scrollbar" id="60">
 			<posx>1255</posx>
@@ -534,8 +532,8 @@
 			<orientation>vertical</orientation>
 			<visible>!Control.IsVisible(57)</visible>
 			<visible>!Control.IsVisible(500)</visible>
-			<visible>![Control.IsVisible(59) + Window.IsVisible(MusicFiles)]</visible>
-			<visible>![Control.IsVisible(59) + Window.IsVisible(MusicLibrary)]</visible>
+			<visible>![Control.IsVisible(59) + Window.IsVisible(Music)]</visible>
+			<visible>![Control.IsVisible(59) + Window.IsVisible(Music)]</visible>
 			<visible>![Control.IsVisible(59) + Window.IsVisible(MusicPlaylist)]</visible>
 			<visible>![Control.IsVisible(58) + Window.IsVisible(Videos)]</visible>
 			<visible>!Control.IsVisible(550)</visible>
@@ -548,12 +546,12 @@
 			<animation effect="fade" time="100">Visible</animation>
 			<animation effect="fade" time="300">Hidden</animation>
 			<animation effect="slide" end="-200,0" time="0" condition="Control.IsVisible(51)">Conditional</animation>
-			<animation effect="slide" end="130,-50" time="0" condition="[Window.IsVisible(MusicFiles) | Window.IsVisible(Musiclibrary) | Window.IsVisible(MusicPlaylist)] + Control.IsVisible(59)">Conditional</animation>
+			<animation effect="slide" end="130,-50" time="0" condition="[Window.IsVisible(Music) | Window.IsVisible(Music) | Window.IsVisible(MusicPlaylist)] + Control.IsVisible(59)">Conditional</animation>
 			<animation effect="slide" end="280,0" time="0" condition="Window.IsVisible(Videos) + [Control.IsVisible(56) | Control.IsVisible(59)]">Conditional</animation>
 			<animation effect="slide" end="130,-50" time="0" condition="Window.IsVisible(Videos) + Control.IsVisible(58)">Conditional</animation>
 			<animation effect="slide" end="-130,0" time="0" condition="Window.IsVisible(Videos) + Control.IsVisible(500)">Conditional</animation>
-			<animation effect="slide" end="-130,0" time="0" condition="Window.IsVisible(Musiclibrary) + Control.IsVisible(500)">Conditional</animation>
-			<animation effect="slide" end="-130,0" time="0" condition="Window.IsVisible(MusicFiles) + Control.IsVisible(500)">Conditional</animation>
+			<animation effect="slide" end="-130,0" time="0" condition="Window.IsVisible(Music) + Control.IsVisible(500)">Conditional</animation>
+			<animation effect="slide" end="-130,0" time="0" condition="Window.IsVisible(Music) + Control.IsVisible(500)">Conditional</animation>
 			<posx>740</posx>
 			<posy>324</posy>
 			<width>330</width>
@@ -605,6 +603,42 @@
 		<texturefocus border="32,0,0,0">Button_Side_Focus.png</texturefocus>
 		<texturenofocus border="32,0,0,0">Button_Side_NoFocus.png</texturenofocus>
 		<pulseonselect>true</pulseonselect>
+	</include>
+	<include name="DefaultDialogButton">
+			<param name="width">200</param>
+			<param name="height">35</param>
+			<param name="wrapmultiline">false</param>
+			<param name="font">font12</param>
+			<param name="onclick"></param>
+			<param name="visible">true</param>
+			<definition>
+				<control type="button" id="$PARAM[id]">
+					<width>$PARAM[width]</width>
+					<height>$PARAM[height]</height>
+					<label>$PARAM[label]</label>
+					<font>$PARAM[font]</font>
+					<textoffsetx>20</textoffsetx>
+					<onclick>$PARAM[onclick]</onclick>
+					<wrapmultiline>$PARAM[wrapmultiline]</wrapmultiline>
+					<textcolor>grey2</textcolor>
+					<focusedcolor>white</focusedcolor>
+					<align>center</align>
+					<texturenofocus border="3">button-nofocus.png</texturenofocus>
+					<texturefocus border="3">button-focus2.png</texturefocus>
+					<visible>$PARAM[visible]</visible>
+				</control>
+			</definition>
+	</include>
+	<include name="DefaultSettingLabel">
+		<left>0</left>
+		<top>0</top>
+		<height>45</height>
+		<label></label>
+		<align>center</align>
+		<aligny>center</aligny>
+		<font>font18</font>
+		<textcolor>grey2</textcolor>
+		<focusedcolor>grey2</focusedcolor>
 	</include>
 	<include name="ButtonInfoDialogsCommonValues">
 		<height>30</height>

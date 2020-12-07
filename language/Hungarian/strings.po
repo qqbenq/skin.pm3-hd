@@ -279,3 +279,11 @@ msgstr "Nem csoportosított[CR]csatornák"
 msgctxt "#31407"
 msgid "Channels in Group"
 msgstr "Csoportosított csatornák"
+
+msgctxt "#31408"
+msgid "Auto-play playlist on startup"
+msgstr "Lejátszási-lista automatikus lejátszása induláskor"
+
+msgctxt "#31409"
+msgid "Edit nodes"
+msgstr "Csomópontok szerkesztése

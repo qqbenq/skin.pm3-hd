@@ -50,7 +50,7 @@
 			<height>30</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<label>-</label>
+			<label></label>
 			<font>font12</font>
 		</control>
 		<control type="label" id="3">
@@ -61,7 +61,7 @@
 			<height>30</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<label>-</label>
+			<label></label>
 			<font>font12</font>
 		</control>
 		<control type="label" id="4">
@@ -72,7 +72,7 @@
 			<height>30</height>
 			<align>center</align>
 			<aligny>center</aligny>
-			<label>-</label>
+			<label></label>
 			<font>font12</font>
 		</control>
 		<control type="button" id="10">

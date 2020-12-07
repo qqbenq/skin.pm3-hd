@@ -60,7 +60,7 @@
 			<onup>2</onup>
 			<scrolltime>200</scrolltime>
 			<viewtype label="536">icon</viewtype>
-			<pagecontrol>-</pagecontrol>
+			<pagecontrol></pagecontrol>
 			<orientation>horizontal</orientation>
 			<itemlayout height="215" width="240">
 				<control type="image">
@@ -78,7 +78,7 @@
 					<info>ListItem.Icon</info>
 				</control>
 				<control type="label">
-					<posx>112</posx>
+					<posx>5</posx>
 					<posy>185</posy>
 					<width>225</width>
 					<height>22</height>
@@ -105,7 +105,7 @@
 					<info>ListItem.Icon</info>
 				</control>
 				<control type="label">
-					<posx>112</posx>
+					<posx>5</posx>
 					<posy>185</posy>
 					<width>225</width>
 					<height>22</height>

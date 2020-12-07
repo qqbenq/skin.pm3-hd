@@ -72,7 +72,7 @@
 		</control>
 	</include>
 	<include name="PVRSideBlade">
-	
+
 		<control type="group">
 			<left>-250</left>
 			<include>SideBladeLeft</include>
@@ -162,7 +162,7 @@
 					<right>40</right>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues</include>
-					<label>-</label>
+					<label></label>
 				</control>
 				<control type="radiobutton" id="5">
 					<description>Group recording items by folder structure</description>
@@ -179,7 +179,7 @@
 					<right>40</right>
 					<textwidth>235</textwidth>
 					<include>ButtonCommonValues</include>
-					<label>-</label>
+					<label></label>
 					<!-- <visible>Window.IsActive(TVGuide) | Window.IsActive(RadioGuide)</visible> -->
 				</control>
 				<control type="button" id="3">
@@ -191,7 +191,7 @@
 					<description>Sort asc</description>
 					<include>ButtonCommonValues</include>
 					<alttexturefocus border="5">button-focus.png</alttexturefocus>
-					<alttexturenofocus>-</alttexturenofocus>
+					<alttexturenofocus></alttexturenofocus>
 					<label>31051</label>
 					<altlabel>31050</altlabel>
 					<usealttexture>Container.SortDirection(Ascending)</usealttexture>
@@ -222,7 +222,7 @@
 					<description>Sort asc</description>
 					<posx>250</posx>
 					<posy>13</posy>
-					<label>-</label>
+					<label></label>
 					<onleft>3</onleft>
 					<onright>50</onright>
 					<onup>613</onup>
@@ -292,7 +292,7 @@
 					<onup>608</onup>
 					<ondown>612</ondown>
 					<onclick>ActivateWindow(TVRecordings)</onclick>
-				</control> 
+				</control>
 				<control type="button" id="612">
 					<description>Timer</description>
 					<posx>0</posx>
@@ -304,7 +304,7 @@
 					<onup>609</onup>
 					<ondown>613</ondown>
 					<onclick>ActivateWindow(TVTimers)</onclick>
-				</control> 
+				</control>
 				<control type="button" id="613">
 					<description>Search</description>
 					<posx>0</posx>
@@ -322,13 +322,13 @@
 					<posx>0</posx>
 					<posy>273</posy>
 					<include>SmallButtonCommonValues</include>
-					<label>-</label>
+					<label></label>
 					<onleft>50</onleft>
 					<onright>50</onright>
 					<onup>613</onup>
 					<ondown>610</ondown>
 				</control>
-				
+
 				<control type="button" id="610">
 					<description>Fake Button to fix Player Controls Navigation</description>
 					<onup>28</onup>
@@ -337,7 +337,7 @@
 				</control>
 				<control type="group">
 					<posx>0</posx>
-					<posy>312</posy>
+					<posy>550</posy>
 					<include>CommonNowPlaying_Controls</include>
 				</control>
 				<control type="button" id="611">

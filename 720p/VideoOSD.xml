@@ -12,10 +12,10 @@
 			<posy>-10</posy>
 			<width>1</width>
 			<height>1</height>
-			<texturefocus>-</texturefocus>
-			<texturenofocus>-</texturenofocus>
-			<label>-</label>
-			<font>-</font>
+			<texturefocus></texturefocus>
+			<texturenofocus></texturenofocus>
+			<label></label>
+			<font></font>
 			<onfocus condition="!VideoPlayer.Content(LiveTV)">SetFocus(101)</onfocus>
 			<onfocus condition="VideoPlayer.Content(LiveTV)">SetFocus(102)</onfocus>
 		</control>
@@ -41,7 +41,7 @@
 					<posy>0</posy>
 					<width>32</width>
 					<height>28</height>
-					<label>-</label>
+					<label></label>
 					<texturefocus>PlayerControls-FullScreenFO.png</texturefocus>
 					<texturenofocus>PlayerControls-FullScreenNF.png</texturenofocus>
 					<onleft>603</onleft>
@@ -63,8 +63,8 @@
 					<height>128</height>
 					<texturefocus>osd_button_dvdmenu.png</texturefocus>
 					<texturenofocus>osd_button_dvdmenuNF.png</texturenofocus>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>201</onleft>
 					<onright>206</onright>
 					<onup>206</onup>
@@ -79,9 +79,9 @@
 					<width>128</width>
 					<height>128</height>
 					<texturefocus>osd_button_dvdmenu2.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
-					<label>-</label>
-					<font>-</font>
+					<texturenofocus></texturenofocus>
+					<label></label>
+					<font></font>
 					<onleft>200</onleft>
 					<onright>205</onright>
 					<onup>205</onup>
@@ -97,8 +97,8 @@
 					<height>128</height>
 					<texturefocus>osd_SubtitleFO.png</texturefocus>
 					<texturenofocus>osd_SubtitleNF.png</texturenofocus>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>201</onleft>
 					<onright>206</onright>
 					<onup>206</onup>
@@ -114,9 +114,9 @@
 					<width>128</width>
 					<height>128</height>
 					<texturefocus>osd_SubtitleFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
-					<label>-</label>
-					<font>-</font>
+					<texturenofocus></texturenofocus>
+					<label></label>
+					<font></font>
 					<onleft>200</onleft>
 					<onright>205</onright>
 					<onup>205</onup>
@@ -140,10 +140,10 @@
 					<width>77</width>
 					<height>79</height>
 					<texturefocus>osd_button_skip_minusFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<onclick>XBMC.PlayerControl(Previous)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>204</onleft>
 					<onright>201</onright>
 					<onup>210</onup>
@@ -156,12 +156,12 @@
 					<width>71</width>
 					<height>79</height>
 					<texturefocus>osd_button_rewFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<usealttexture>Player.Rewinding</usealttexture>
 					<alttexturefocus>osd_button_rewFO.png</alttexturefocus>
 					<alttexturenofocus>osd_button_rewSELNF.png</alttexturenofocus>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>200</onleft>
 					<onright>202</onright>
 					<onup>209</onup>
@@ -179,8 +179,8 @@
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 					<alttexturefocus>osd_button_playFO.png</alttexturefocus>
 					<alttexturenofocus>osd_button_playNF.png</alttexturenofocus>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>201</onleft>
 					<onright>203</onright>
 					<onup>206</onup>
@@ -194,12 +194,12 @@
 					<width>64</width>
 					<height>75</height>
 					<texturefocus>osd_button_ffFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<usealttexture>Player.Forwarding</usealttexture>
 					<alttexturefocus>osd_button_ffFO.png</alttexturefocus>
 					<alttexturenofocus>osd_button_ffSELNF.png</alttexturenofocus>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>202</onleft>
 					<onright>204</onright>
 					<onup>206</onup>
@@ -213,10 +213,10 @@
 					<width>71</width>
 					<height>72</height>
 					<texturefocus>osd_button_skip_plusFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<onclick>XBMC.PlayerControl(Next)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>203</onleft>
 					<onright>200</onright>
 					<onup>205</onup>
@@ -229,13 +229,13 @@
 					<width>74</width>
 					<height>64</height>
 					<texturefocus>osd_button_audioFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<usealttexture>Window.IsActive(OSDAudioSettings)</usealttexture>
 					<alttexturefocus>osd_button_audioSELNF.png</alttexturefocus>
-					<alttexturenofocus>-</alttexturenofocus>
+					<alttexturenofocus></alttexturenofocus>
 					<onclick>XBMC.ActivateWindow(OSDAudioSettings)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>210</onleft>
 					<onright>204</onright>
 					<onup>208</onup>
@@ -248,13 +248,13 @@
 					<width>75</width>
 					<height>62</height>
 					<texturefocus>osd_button_videoFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<usealttexture>Window.IsActive(OSDVideoSettings)</usealttexture>
 					<alttexturefocus>osd_button_videoSELNF.png</alttexturefocus>
-					<alttexturenofocus>-</alttexturenofocus>
+					<alttexturenofocus></alttexturenofocus>
 					<onclick>XBMC.ActivateWindow(OSDVideoSettings)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>209</onleft>
 					<onright>203</onright>
 					<onup>205</onup>
@@ -267,10 +267,10 @@
 					<width>83</width>
 					<height>69</height>
 					<texturefocus>osd_button_stopFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<onclick>XBMC.PlayerControl(Stop)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>201</onleft>
 					<onright>203</onright>
 					<onup>202</onup>
@@ -283,13 +283,13 @@
 					<width>84</width>
 					<height>78</height>
 					<texturefocus>osd_button_bookmarkFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<usealttexture>Window.IsActive(VideoBookmarks)</usealttexture>
 					<alttexturefocus>osd_button_bookmarkSELNF.png</alttexturefocus>
-					<alttexturenofocus>-</alttexturenofocus>
+					<alttexturenofocus></alttexturenofocus>
 					<onclick>XBMC.ActivateWindow(VideoBookmarks)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>200</onleft>
 					<onright>204</onright>
 					<onup>207</onup>
@@ -308,8 +308,8 @@
 					<height>128</height>
 					<texturefocus>osd_button_rec.png</texturefocus>
 					<texturenofocus>osd_button_recNF.png</texturenofocus>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>301</onleft>
 					<onright>306</onright>
 					<onup>306</onup>
@@ -323,10 +323,10 @@
 					<posy>40</posy>
 					<width>128</width>
 					<height>128</height>
-					<texturefocus>-</texturefocus>
+					<texturefocus></texturefocus>
 					<texturenofocus>osd_button_rec2.png</texturenofocus>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>300</onleft>
 					<onright>305</onright>
 					<onup>305</onup>
@@ -349,13 +349,13 @@
 					<width>77</width>
 					<height>79</height>
 					<texturefocus>osd_button_pvr_epgFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
-					<usealttexture>Window.IsActive(PVROSDGuide)</usealttexture>
+					<texturenofocus></texturenofocus>
+					<usealttexture>Window.IsActive(PVRChannelGuide)</usealttexture>
 					<alttexturefocus>osd_button_pvr_epgFO.png</alttexturefocus>
-					<alttexturenofocus>-</alttexturenofocus>
-					<onclick>XBMC.ActivateWindow(PVROSDGuide)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<alttexturenofocus></alttexturenofocus>
+					<onclick>XBMC.ActivateWindow(PVRChannelGuide)</onclick>
+					<label></label>
+					<font></font>
 					<onleft>304</onleft>
 					<onright>301</onright>
 					<onup>310</onup>
@@ -368,12 +368,12 @@
 					<width>71</width>
 					<height>79</height>
 					<texturefocus>osd_button_rewFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<usealttexture>Player.Rewinding</usealttexture>
 					<alttexturefocus>osd_button_rewFO.png</alttexturefocus>
 					<alttexturenofocus>osd_button_rewSELNF.png</alttexturenofocus>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>300</onleft>
 					<onright>302</onright>
 					<onup>309</onup>
@@ -391,8 +391,8 @@
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 					<alttexturefocus>osd_button_playFO.png</alttexturefocus>
 					<alttexturenofocus>osd_button_playNF.png</alttexturenofocus>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>301</onleft>
 					<onright>303</onright>
 					<onup>306</onup>
@@ -406,12 +406,12 @@
 					<width>64</width>
 					<height>75</height>
 					<texturefocus>osd_button_ffFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<usealttexture>Player.Forwarding</usealttexture>
 					<alttexturefocus>osd_button_ffFO.png</alttexturefocus>
 					<alttexturenofocus>osd_button_ffSELNF.png</alttexturenofocus>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>302</onleft>
 					<onright>304</onright>
 					<onup>306</onup>
@@ -425,11 +425,11 @@
 					<width>71</width>
 					<height>72</height>
 					<texturefocus>osd_button_pvr_teletextFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<onclick>back</onclick>
 					<onclick>XBMC.PlayerControl(Teletext)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>303</onleft>
 					<onright>300</onright>
 					<onup>305</onup>
@@ -442,13 +442,13 @@
 					<width>74</width>
 					<height>64</height>
 					<texturefocus>osd_button_pvr_channelsFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<usealttexture>Window.IsActive(PVROSDChannels)</usealttexture>
 					<alttexturefocus>osd_button_pvr_channelsFO.png</alttexturefocus>
-					<alttexturenofocus>-</alttexturenofocus>
+					<alttexturenofocus></alttexturenofocus>
 					<onclick>XBMC.ActivateWindow(PVROSDChannels)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>310</onleft>
 					<onright>304</onright>
 					<onup>308</onup>
@@ -461,10 +461,10 @@
 					<width>75</width>
 					<height>62</height>
 					<texturefocus>osd_button_pvr_channelupFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<onclick>XBMC.PlayerControl(Previous)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>309</onleft>
 					<onright>303</onright>
 					<onup>305</onup>
@@ -477,10 +477,10 @@
 					<width>83</width>
 					<height>69</height>
 					<texturefocus>osd_button_pvr_channeldownFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<onclick>XBMC.PlayerControl(Next)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>311</onleft>
 					<onright>312</onright>
 					<onup>302</onup>
@@ -493,10 +493,10 @@
 					<width>84</width>
 					<height>78</height>
 					<texturefocus>osd_button_pvr_stopFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<onclick>XBMC.PlayerControl(Stop)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>300</onleft>
 					<onright>304</onright>
 					<onup>307</onup>
@@ -509,10 +509,10 @@
 					<width>71</width>
 					<height>57</height>
 					<texturefocus>osd_button_pvr_audioFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<onclick>ActivateWindow(OSDAudioSettings)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>311</onleft>
 					<onright>307</onright>
 					<onup>301</onup>
@@ -525,10 +525,10 @@
 					<width>55</width>
 					<height>68</height>
 					<texturefocus>osd_button_pvr_videoFO.png</texturefocus>
-					<texturenofocus>-</texturenofocus>
+					<texturenofocus></texturenofocus>
 					<onclick>ActivateWindow(OSDVideoSettings)</onclick>
-					<label>-</label>
-					<font>-</font>
+					<label></label>
+					<font></font>
 					<onleft>307</onleft>
 					<onright>312</onright>
 					<onup>303</onup>

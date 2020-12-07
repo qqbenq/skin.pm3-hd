@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window>
 	<defaultcontrol>1</defaultcontrol>
 	<include>dialogeffect</include>
@@ -8,7 +9,40 @@
 	</coordinates>
 	<controls>
 		<control type="group">
+			<animation effect="fade" start="0" end="100" delay="300" time="500" tween="sine" condition="Player.Muted">Conditional</animation>
+			<visible>Player.Muted</visible>
+			<control type="image">
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>220</width>
+				<height>45</height>
+				<colordiffuse>DDFFFFFF</colordiffuse>
+				<texture>black-back.png</texture>
+				<bordertexture border="3">NoCover_1.png</bordertexture>
+				<bordersize>4</bordersize>
+			</control>
+			<control type="image">
+				<posx>10</posx>
+				<posy>5</posy>
+				<width>35</width>
+				<height>35</height>
+				<texture>VolumeIcon-Mute.png</texture>
+			</control>
+			<control type="label" id="0">
+				<description>Label</description>
+				<posx>60</posx>
+				<posy>0</posy>
+				<width>150</width>
+				<height>45</height>
+				<label>31000</label>
+				<font>font11</font>
+				<align>left</align>
+				<aligny>center</aligny>
+			</control>
+		</control>
+		<control type="group">
 			<animation effect="slide" start="0,0" end="0,55" time="0" condition="Window.IsVisible(seekbar)">Conditional</animation>
+			<animation effect="fade" start="100" end="0" delay="300" time="500" tween="sine" condition="Player.Muted">Conditional</animation>
 			<control type="image">
 				<posx>0</posx>
 				<posy>0</posy>

@@ -1,5 +1,5 @@
 <window>
- <defaultcontrol>-</defaultcontrol>
+ <defaultcontrol></defaultcontrol>
 	<controls>
 		<!-- codec infos -->
 		<control type="image">
@@ -19,7 +19,7 @@
             <align>left</align>
             <aligny>center</aligny>
             <font>font11</font>
-            <label>-</label>
+            <label></label>
             <include>VisibleFadeEffect</include>
         </control>
         <control type="label" id="11">
@@ -31,7 +31,7 @@
             <align>left</align>
             <aligny>center</aligny>
             <font>font11</font>
-            <label>-</label>
+            <label></label>
             <include>VisibleFadeEffect</include>
         </control>
         <control type="label" id="12">
@@ -43,7 +43,7 @@
             <align>left</align>
             <aligny>center</aligny>
             <font>font11</font>
-            <label>-</label>
+            <label></label>
             <include>VisibleFadeEffect</include>
         </control>
 		<control type="selectbutton" id="503">
@@ -202,7 +202,7 @@
 				<posy>150</posy>
 				<width>910</width>
 				<height>10</height>
-				<overlaytexture>-</overlaytexture>
+				<overlaytexture></overlaytexture>
 				<info>PVR.ActStreamProgrSNR</info>
 			</control>
 			<control type="label">

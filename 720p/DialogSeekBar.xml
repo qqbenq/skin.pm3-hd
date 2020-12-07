@@ -32,7 +32,6 @@
 				<aligny>center</aligny>
 				<label>$INFO[player.chapter,$LOCALIZE[21396] ]$INFO[player.chaptercount, / ]</label>
 				<visible>player.chaptercount</visible>
-				<align>center</align>
 				<font>font11</font>
 			</control>
 		</control>
@@ -131,6 +130,7 @@
 			</control>
 			<control type="slider" id="401">
 				<description>Seek Slider</description>
+				<orientation>horizontal</orientation>
 				<posx>10</posx>
 				<posy>31</posy>
 				<width>380</width>

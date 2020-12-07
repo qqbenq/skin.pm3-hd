@@ -15,7 +15,7 @@
 			<animation effect="fade" time="250" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
 		<control type="group">
-			<include>Window_OpenClose_Animation</include>		
+			<include>Window_OpenClose_Animation</include>
 			<control type="image">
 				<left>0</left>
 				<top>100r</top>
@@ -26,7 +26,7 @@
 				<animation effect="fade" time="250" condition="Window.Next(Home)">WindowClose</animation>
 			</control>
 			<control type="group">
-				<include>Window_OpenClose_Animation</include>		
+				<include>Window_OpenClose_Animation</include>
 				<control type="group">
 					<include>VisibleFadeEffect</include>
 					<control type="image">
@@ -49,7 +49,7 @@
 		<include>MainWindowMouseButtons</include>
 		<include>PVRHeader</include>
 
-			
+
 		<control type="group">
 			<include>Window_OpenClose_Animation</include>
 			<description>TV Search group</description>
@@ -146,7 +146,7 @@
 								<textcolor>grey2</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
-							</control>	
+							</control>
 						</control>
 						<control type="group">
 							<visible>!IsEmpty(ListItem.Date)</visible>
@@ -283,7 +283,7 @@
 								<textcolor>grey2</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
-							</control>	
+							</control>
 						</control>
 						<control type="group">
 							<visible>!IsEmpty(ListItem.Date)</visible>
