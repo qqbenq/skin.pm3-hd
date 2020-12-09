@@ -58,9 +58,9 @@
 			<itemgap>5</itemgap>
 			<pagecontrol/>
 			<onleft>5</onleft>
-				<onright>9001</onright>
-				<onup>20</onup>
-				<ondown>20</ondown>
+			<onright>9001</onright>
+			<onup>20</onup>
+			<ondown>20</ondown>
 			<animation condition="!Control.IsVisible(60)" effect="slide" end="-10,0" start="0,0" time="0">Conditional</animation>
 		</control>
 		<control id="10" type="button">
@@ -82,9 +82,9 @@
 			<itemgap>5</itemgap>
 			<pagecontrol>60</pagecontrol>
 			<onleft>3</onleft>
-				<onright>60</onright>
-				<onup>5</onup>
-				<ondown>5</ondown>
+			<onright>60</onright>
+			<onup>5</onup>
+			<ondown>5</ondown>
 			<animation condition="!Control.IsVisible(60)" effect="slide" end="10,0" start="0,0" time="0">Conditional</animation>
 		</control>
 		<control id="60" type="scrollbar">
@@ -97,16 +97,16 @@
 			<texturesliderbarfocus border="2,16,2,16">scrollbar_bar_focus.png</texturesliderbarfocus>
 			<textureslidernib>scrollbar_nib.png</textureslidernib>
 			<textureslidernibfocus>scrollbar_nib.png</textureslidernibfocus>
-				<onleft>5</onleft>
-				<onright>9001</onright>
+			<onleft>5</onleft>
+			<onright>9001</onright>
 			<showonepage>false</showonepage>
 			<orientation>vertical</orientation>
 		</control>
 		<control id="9001" type="group">
 			<posx>705</posx>
 			<posy>490</posy>
-				<onleft>5</onleft>
-				<onright>3</onright>
+			<onleft>5</onleft>
+			<onright>3</onright>
 			<animation condition="!Control.IsVisible(60)" effect="slide" end="-10,0" start="0,0" time="0">Conditional</animation>
 			<control id="28" type="button">
 				<description>OK Button</description>
@@ -160,7 +160,7 @@
 				<ondown>28</ondown>
 			</control>
 		</control>
-		<control type="sliderex" id="13">
+		<control id="13" type="sliderex">
 			<description>Default Slider</description>
 			<height>35</height>
 			<texturefocus border="3">button-focus.png</texturefocus>
@@ -192,12 +192,9 @@
 			<aligny>center</aligny>
 			<reverse>yes</reverse>
 		</control>
-
 		<control id="12" type="edit">
 			<include>DefaultSettingButton</include>
 		</control>
-
-
 		<control id="6" type="textbox">
 			<description>description area</description>
 			<left>50</left>
@@ -209,15 +206,14 @@
 			<textcolor>button_focus</textcolor>
 			<autoscroll delay="5000" repeat="5000" time="3000">true</autoscroll>
 		</control>
-
-		<control type="image" id="11">
+		<control id="11" type="image">
 			<description>Default Seperator</description>
 			<height>2</height>
 			<texture>separator.png</texture>
 		</control>
-		<control type="label" id="14">
+		<control id="14" type="label">
 			<description>Separator label</description>
-			<label></label>
+			<label/>
 			<height>25</height>
 			<font>font12</font>
 			<align>center</align>
